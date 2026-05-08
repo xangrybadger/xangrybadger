@@ -21,15 +21,47 @@
 
 ### 🇧🇷 PT
 
-Engenheiro de Computação em formação focado na intersecção entre **IA Generativa**, **Cloud Azure** e **desenvolvimento Full-Stack**. Construí pipelines agentic com 7+ modelos de IA, migrei bancos em larga escala para Azure Cosmos DB e entreguei apps offline-first para campo.
+Engenheiro de Computação no 5° semestre, desenvolvendo profissionalmente na **Paware Softwares** — onde migrei bases de dados complexas do Google Drive para Azure Cosmos DB (Meritage Homes, EUA) e construí agentes de IA para geração de imagens no HelloSocial (Flux, DALL-E 3, Placid/Canva APIs).
 
-Quando não estou codando, estou com meus dois cachorros (uma Chow Chow e um Border Collie), consumindo conteúdo de desenvolvimento pessoal, ou ricing meu CachyOS/Hyprland.
+Antes disso, ensinei robótica e lógica de programação para crianças e adolescentes na SuperNerds — Arduino, plataformas visuais e projetos práticos.
+
+No tempo livre: dois cachorros (Chow Chow + Border Collie), desenvolvimento pessoal, e ricing meu CachyOS/Hyprland. Acredito que IA deve ser ferramenta prática que resolve problemas reais — não hype.
 
 ### 🇺🇸 EN
 
-Computer Engineering student focused on the intersection of **Generative AI**, **Azure Cloud**, and **Full-Stack development**. Built agentic pipelines with 7+ AI models, migrated large-scale databases to Azure Cosmos DB, and delivered offline-first field apps.
+Computer Engineering student in my 5th semester, working professionally at **Paware Softwares** — where I migrated complex databases from Google Drive to Azure Cosmos DB (Meritage Homes, USA) and built AI agents for image generation at HelloSocial (Flux, DALL-E 3, Placid/Canva APIs).
 
-When I'm not coding, I'm with my two dogs (a Chow Chow and a Border Collie), following personal development content, or ricing my CachyOS/Hyprland setup.
+Before that, I taught robotics and programming logic to kids and teens at SuperNerds — Arduino, visual platforms, and hands-on projects.
+
+Off-hours: two dogs (Chow Chow + Border Collie), personal development, and ricing my CachyOS/Hyprland. I believe AI should be a practical tool that solves real problems — not hype.
+
+---
+
+## 🏢 Experience
+
+**Paware Softwares** · Full-Stack Developer · Oct 2025 — Present
+
+- Migrated complex databases to Azure Cloud for **Meritage Homes (USA)** — ensuring data integrity and security in production
+- Built and evolved AI agents for **HelloSocial** — image generation pipeline with Flux, DALL-E 3, and Placid/Canva APIs
+- Docker environments for testing and consistency in conversational AI agents
+
+**SuperNerds** · Robotics Instructor · Sep 2025 — Oct 2025
+
+- Taught programming logic and robotics to children and teens using Arduino and visual platforms
+- Developed teaching materials connecting theory to real applications
+
+---
+
+## 🚀 Projects
+
+| | Project | What it does | Stack |
+|:---:|:---|:---|:---|
+| 🦅 | **[HarpIA](https://github.com/xAngryBadger/harpia)** | Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling, image/video generation, zero-cost PIL compositor | Python · GPT-4.1 · DALL-E 3 · Flux · Sora · Veo · Azure Cosmos DB |
+| 📱 | **[Flora Sensus](https://github.com/xAngryBadger/flora-sensus)** | Offline-first forest inventory app — custom sync engine, conflict detection, UUID remapping, atomic rollback | Flutter · Dart · Drift/SQLite · React · PocketBase |
+| 🌲 | **[SRF System](https://github.com/xAngryBadger/srf-system)** | Planning engine for large-scale forest restoration — executive dossiers, crew/territory allocation, activity schedules | Python · NiceGUI · Rich CLI · pandas · openpyxl |
+| 🌿 | **[ForestAI](https://github.com/xAngryBadger/forestai)** | Forest species detection & classification — DeepForest training, stratified splits, bounding box validation | PyTorch · DeepForest · OpenCV · scikit-learn |
+| 🦊 | **[Fennec Excel](https://github.com/xAngryBadger/Sahara-Fenneck)** | Local AI assistant for Excel via Ollama — ReAct agent, 6+ OAuth integrations, auto-checkpoint | Python · Ollama · CustomTkinter · xlwings · Inno Setup |
+| 🤖 | **[MaineCoon](https://github.com/xAngryBadger/minepal)** | Minecraft bot with natural language commands via LLM — mine, craft, navigate, interact through chat | Node.js · mineflayer · NVIDIA NIM API · RL |
 
 ---
 
@@ -86,31 +118,21 @@ When I'm not coding, I'm with my two dogs (a Chow Chow and a Border Collie), fol
 
 ---
 
-<div align="center">
+## 🎓 Education & Certifications
 
-<img src="assets/skyline.png" width="100%" alt="2025 Contribution Skyline" />
+**Computer Engineering** · Cruzeiro do Sul · 2024 — 2029 · 5th semester (in progress)
 
-</div>
+**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Intro to Cybersecurity
 
----
+**Gov AI Program (PBIA)** — AI for Process Optimization & Decision-Making · 71h · Enap/Serpro
 
-<div align="center">
-
-| | Projeto | Stack | |
-|:---:|:---|:---|:---:|
-| 🦅 | **[HarpIA](https://github.com/xAngryBadger/harpia)** — Motor de automação criativa com 7+ modelos de IA | Python · GPT-4.1 · DALL-E 3 · Flux · Sora · Veo · Azure Cosmos DB | `6.9K+ loc` |
-| 🌲 | **[SRF System](https://github.com/xAngryBadger/srf-system)** — Motor de planejamento para restauração florestal | Python · NiceGUI · Rich CLI · pandas · openpyxl | `planning` |
-| 📱 | **[Flora Sensus](https://github.com/xAngryBadger/flora-sensus)** — App Flutter offline-first para inventário florestal | Flutter · Dart · Drift/SQLite · React · PocketBase | `24.6K+ loc` |
-| 🦊 | **[Fennec Excel](https://github.com/xAngryBadger/Sahara-Fenneck)** — Assistente de IA local para Excel via Ollama | Python · Ollama · CustomTkinter · xlwings · ReAct | `desktop` |
-| 🤖 | **[MaineCoon](https://github.com/xAngryBadger/minepal)** — Bot Minecraft com comandos em linguagem natural via LLM | Node.js · mineflayer · NVIDIA NIM API · RL | `gaming` |
-
-</div>
+**KUMON** — Fluent English · 3 years
 
 ---
 
 <div align="center">
 
-📈 **7+ modelos de IA integrados** · 🌐 **Bilingual PT/EN** · 🐧 **CachyOS/Hyprland daily driver**
+📈 **7+ AI models integrated** · ☁️ **Azure Cosmos DB production migrations** · 🌿 **Forest AI + IoT** · 🌐 **Bilingual PT/EN** · 🐧 **CachyOS/Hyprland daily driver**
 
 <br/>
 
