@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#1A2A1A"/>
+    </linearGradient>
+    <linearGradient id="sageFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#456A4B" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#456A4B" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#456A4B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B6914" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B6914" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="textShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#456A4B" flood-opacity="0.5"/>
+    </filter>
+    <filter id="amberGlowFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="220" fill="url(#bg)" rx="12"/>
+
+  <!-- Sage gradient wash -->
+  <rect width="960" height="220" fill="url(#sageFade)" rx="12"/>
+
+  <!-- Hex grid accent (right side) -->
+  <g opacity="0.06" stroke="#456A4B" stroke-width="0.8" fill="none">
+    <path d="M760,20 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M790,20 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M820,20 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M775,46.32 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M805,46.32 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M835,46.32 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M760,72.64 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M790,72.64 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M820,72.64 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M850,20 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M850,72.64 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M880,20 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+    <path d="M910,20 l15,8.66 l0,17.32 l-15,8.66 l-15,-8.66 l0,-17.32 Z"/>
+  </g>
+
+  <!-- Pine tree silhouettes (forest motif, left side) -->
+  <g fill="#456A4B" opacity="0.12">
+    <!-- Tree 1 - tallest -->
+    <polygon points="60,180 75,60 90,180"/>
+    <rect x="72" y="180" width="6" height="12"/>
+    <!-- Tree 2 -->
+    <polygon points="95,180 107,90 119,180"/>
+    <rect x="104" y="180" width="6" height="10"/>
+    <!-- Tree 3 - small -->
+    <polygon points="25,180 34,120 43,180"/>
+    <rect x="32" y="180" width="5" height="8"/>
+    <!-- Tree 4 -->
+    <polygon points="120,180 128,110 136,180"/>
+    <rect x="126" y="180" width="4" height="8"/>
+    <!-- Tree 5 - background tall -->
+    <polygon points="48,180 56,80 64,180"/>
+    <rect x="52" y="180" width="4" height="10"/>
+  </g>
+
+  <!-- Distant mountain silhouette -->
+  <path d="M0,180 Q40,140 80,155 Q120,130 160,150 Q200,120 240,145 Q280,125 320,150 Q360,130 400,148 L400,220 L0,220 Z" fill="#456A4B" opacity="0.06"/>
+
+  <!-- Amber accent line (bottom) -->
+  <line x1="40" y1="198" x2="920" y2="198" stroke="#8B6914" stroke-width="1.5" opacity="0.35"/>
+  <line x1="40" y1="200" x2="920" y2="200" stroke="#456A4B" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Amber dot decorations -->
+  <circle cx="40" cy="199" r="2.5" fill="#8B6914" opacity="0.6"/>
+  <circle cx="920" cy="199" r="2.5" fill="#8B6914" opacity="0.6"/>
+
+  <!-- Name -->
+  <text x="480" y="95" text-anchor="middle" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#FFFFF0" filter="url(#textShadow)">Isaac Nathan</text>
+
+  <!-- Title -->
+  <text x="480" y="135" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="16" font-weight="400" fill="#8B6914" filter="url(#amberGlowFilter)">Full-Stack AI Engineer</text>
+
+  <!-- Subtitle accent -->
+  <text x="480" y="165" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#8B9481" opacity="0.7">Engenharia de Computação · IA · Cloud · IoT</text>
+
+  <!-- Amber glow behind title -->
+  <ellipse cx="480" cy="135" rx="180" ry="20" fill="url(#amberGlow)" opacity="0.3"/>
+
+  <!-- Badge dots (decorative, bottom-left) -->
+  <circle cx="55" cy="210" r="3" fill="#456A4B" opacity="0.4"/>
+  <circle cx="65" cy="210" r="3" fill="#8B6914" opacity="0.4"/>
+  <circle cx="75" cy="210" r="3" fill="#8B9481" opacity="0.3"/>
+</svg>

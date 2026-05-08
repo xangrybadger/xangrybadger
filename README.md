@@ -1,15 +1,13 @@
 <div align="center">
 
-<!-- HERO GIF PLACEHOLDER — Replace with your own GIF -->
-<!-- <img src="hero.gif" width="100%" alt="Hero" /> -->
-<!-- TEMPORARY: typing SVG until you drop your GIF in -->
-<a href="https://xangrybadger.github.io/isaac-vitae/">
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=42&pause=1000&color=456A4B&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Isaac+Nathan;Full-Stack+AI+Engineer" alt="Typing SVG" />
-</a>
+<img src="assets/banner.svg" width="100%" alt="Isaac Nathan — Full-Stack AI Engineer" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&pause=800&color=8B6914&center=true&vCenter=true&repeat=true&width=600&height=30&lines=Engenharia+de+Computa%C3%A7%C3%A3o+%C2%B7+IA+%C2%B7+Cloud+%C2%B7+IoT" alt="Subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&pause=800&color=8B6914&center=true&vCenter=true&repeat=true&width=600&height=28&lines=Engenharia+de+Computa%C3%A7%C3%A3o+%C2%B7+IA+%C2%B7+Cloud+%C2%B7+IoT;Computer+Engineering+%C2%B7+AI+%C2%B7+Cloud+%C2%B7+IoT" alt="Subtitle" />
+
+<!-- HERO GIF PLACEHOLDER — Replace with your own GIF/video -->
+<!-- <img src="hero.gif" width="100%" alt="Hero" /> -->
 
 <br/><br/>
 
@@ -45,8 +43,52 @@ When I'm not coding, I'm with my two dogs (a Chow Chow and a Border Collie), fol
 
 <div align="center">
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=xAngryBadger&theme=darkhub&rank=SSS,SS,S,AAA,AA,A&column=8&no-bg=true&no-frame=true&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+<div align="center">
+
 <img src="https://github-readme-stats.vercel.app/api?username=xAngryBadger&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=456A4B&icon_color=8B6914&text_color=8B9481" width="48%" alt="Stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com?user=xAngryBadger&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=1A2A1A&ring=456A4B&fire=8B6914&curr=456A4B&sideLabels=8B9481&dates=555555" width="48%" alt="Streak" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xAngryBadger&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=456A4B&text_color=8B9481&langs_count=10" width="60%" alt="Top Languages" />
+
+</div>
+
+---
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xAngryBadger&bg_color=0D1117&color=8B9481&line=456A4B&point=8B6914&area=true&hide_border=true&custom_title=Recent%20Activity&radius=6)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+  <img alt="github-snake" src="assets/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="assets/skyline.png" width="100%" alt="2025 Contribution Skyline" />
 
 </div>
 
