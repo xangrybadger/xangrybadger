@@ -21,17 +21,31 @@
 <td width="50%" valign="top">
 
 **🇧🇷 PT-BR**<br/>
-Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Hoje na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e orquestro agentes de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
+Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e arquitectei pipelines de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
 
 </td>
 <td width="50%" valign="top">
 
 **🇺🇸 EN-US**<br/>
-My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny IDE, no GPT, extra afternoon classes just to keep learning. After 2 years in Chemical Engineering at UFSJ, I came home and pivoted to Computer Engineering. I built ForestAI from scratch using Stack Overflow and Thonny, manually annotating hundreds of drone images from Fundação Renova. Now at **Paware Softwares**, I migrated databases to Azure Cosmos DB (Meritage Homes, USA) and orchestrate AI agents for HelloSocial. I learn by solving real problems, not following tutorials.
+My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny IDE, no GPT, extra afternoon classes just to keep learning. After 2 years in Chemical Engineering at UFSJ, I came home and pivoted to Computer Engineering. I built ForestAI from scratch using Stack Overflow and Thonny, manually annotating hundreds of drone images from Fundação Renova. At **Paware Softwares**, I migrated databases to Azure Cosmos DB (Meritage Homes, USA) and architected AI pipelines for HelloSocial. I learn by solving real problems, not following tutorials.
 
 </td>
 </tr>
 </table>
+
+---
+
+### Origem
+
+**2022** — Me apaixonei por Python na UFOP (Química Industrial). Thonny IDE, era pré-GPT, aulas extras à tarde só pra continuar codando.
+
+**2022–2024** — Dois anos em Engenharia Química na UFSJ (Ouro Branco). Longe do código, mas acompanhando a área de IA de perto.
+
+**2024** — Pivotei para Engenharia de Computação na Cruzeiro do Sul. Construí o **ForestAI** do zero — Stack Overflow e Thonny, sem IA-assistida. Anotei manualmente centenas de imagens de drone da Fundação Renova, treinei modelos de detecção de espécies (YOLO, PyTorch, DeepForest) em GPU local, interpretei curvas de treino no TensorBoard. Do jeito difícil — e ficou.
+
+**2024–2025** — Expansão autodidata: scripts de sistema, otimização de PC, deployments Windows (Registry, Group Policy, Massgrave). Serviços de TI para casa e igreja. Trocando código e ideias com dois amigos de infância — um em Portugal, outro no Sul.
+
+**Meados de 2025** — Um desses amigos viu o ForestAI e me apresentou à Paware Softwares. O resto está abaixo.
 
 ---
 
@@ -63,9 +77,9 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 
 ### Professional Trajectory
 
-> **Paware Softwares** · Full-Stack Developer · `Oct 2025 — Present`
+> **Paware Softwares** · Full-Stack Developer · `Oct 2025 — May 2026`
 >
-> Built automated extraction scripts (cookie-based auth) to pull legacy datasets from Google Drive for **Meritage Homes (USA)** — working directly with Luciano Amado (Orlando, FL). Scripts handled file compression, renaming, and injection into presentation panels ready for **WhatsApp agent embedding** (which had strict file size limits). Hit a cross-platform wall: Android displayed files natively, but iPhone required `application/octet-stream` headers to force ZIPs to open in Firefox. When duplicated files exposed gaps, I introduced **Docker** for reproducible test environments and wrote a validation layer that became the backbone of the final migration to **Azure Cosmos DB**. Now architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**.
+> Built automated extraction scripts (cookie-based auth) to pull legacy datasets from Google Drive for **Meritage Homes (USA)** — working directly with Luciano Amado (Orlando, FL). Scripts handled file compression, renaming, and injection into presentation panels ready for **WhatsApp agent embedding** (which had strict file size limits). Hit a cross-platform wall: Android displayed files natively, but iPhone required `application/octet-stream` headers to force ZIPs to open in Firefox. When duplicated files exposed gaps, I introduced **Docker** for reproducible test environments and wrote a validation layer that became the backbone of the final migration to **Azure Cosmos DB**. Also architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**.
 
 > **SuperNerds** · Robotics Instructor · `Sep 2025 — Oct 2025`
 >
