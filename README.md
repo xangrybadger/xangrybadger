@@ -33,8 +33,6 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 </tr>
 </table>
 
-> *Utility over hype. Data integrity over demo polish. Ship what works.*
-
 ---
 
 ### Origin
@@ -82,7 +80,7 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 <td width="8%" align="center">🦅</td>
 <td>
 <strong>HarpIA</strong> · <a href="https://github.com/xAngryBadger/harpia">source</a><br/>
-Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling, autonomous agentic pipeline (copywriting, image search, design compositing, video generation). Zero-cost by default with SQLite + local PIL.<br/>
+Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling, autonomous agentic pipeline (copywriting, image search, design compositing, video generation). Stack leve por padrão (SQLite + local PIL), com fallback para APIs pagas quando necessário.<br/>
 <code>Python</code> <code>GPT-4.1</code> <code>DALL-E 3</code> <code>Flux 2.0 Pro</code> <code>Sora</code> <code>Veo 3.1</code> <code>Azure Cosmos DB</code>
 </td>
 </tr>
@@ -90,7 +88,7 @@ Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling
 <td width="8%" align="center">📱</td>
 <td>
 <strong>Flora Sensus</strong> · <a href="https://github.com/xAngryBadger/flora-sensus">source</a><br/>
-Offline-first forest inventory app with full sync engine — conflict detection, atomic rollback, UUID remapping for client-server reconciliation. React admin panel with XLSX/PDF/CSV export. 24K+ hand-crafted LOC, 30+ features.<br/>
+Offline-first forest inventory app with full sync engine — conflict detection, atomic rollback, UUID remapping for client-server reconciliation. React admin panel with XLSX/PDF/CSV export. ~24K LOC — arquitetura e lógica de sync construídas do zero; código gerado com apoio de LLM (web) e revisado manualmente.<br/>
 <code>Flutter</code> <code>Dart</code> <code>Drift/SQLite</code> <code>React</code> <code>PocketBase</code>
 </td>
 </tr>
@@ -184,7 +182,7 @@ Solved the "no-signal" problem in forestry field work with a custom sync engine:
 
 - **Tool calling with schema enforcement** — the agent selects from a defined tool schema (image generation, copy writing, template selection, Pexels search) and the pipeline validates each tool call against the schema before execution
 - **Multi-iteration reasoning loop** — up to 10 iterations of think → call → observe before returning a final result
-- **Zero-cost fallback** — when no paid API is needed, a PIL compositor renders designs locally with 8 layout templates, brand colors, and badge overlays using SQLite for state persistence
+- **Lightweight stack by default** — when no paid API is needed, a PIL compositor renders designs locally with 8 layout templates, brand colors, and badge overlays using SQLite for state persistence; falls back to paid APIs when necessary
 - **Cron-ready** — file-locking prevents concurrent runs; stuck batch recovery handles orphaned processes automatically
 - **Backend swap** — local SQLite for development, Azure Cosmos DB + Blob Storage for production, toggled via environment config
 
