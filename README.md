@@ -10,7 +10,7 @@
 </td>
 <td width="30%" align="right" valign="top">
 
-<img src="https://avatars.githubusercontent.com/xAngryBadger" width="120" style="border: 2px solid #456A4B; border-radius: 4px;" alt="Isaac Nathan" />
+<img src="assets/foto-isaac.jpg" width="120" style="border: 2px solid #456A4B; border-radius: 4px;" alt="Isaac Nathan" />
 
 </td>
 </tr>
@@ -21,13 +21,13 @@
 <td width="50%" valign="top">
 
 **🇧🇷 PT-BR**<br/>
-Estudante de Engenharia de Computação (5º semestre) focado em arquitetura de sistemas pragmáticos. Na **Paware Softwares**, lidero migrações críticas para Azure Cosmos DB e orquestração de agentes de IA generativa. Minha abordagem ignora o *hype* para focar em integridade de dados e utilidade real.
+Estudante de Engenharia de Computação (5º semestre). Na **Paware Softwares**, comecei criando scripts automatizados com cookies para extrair datasets do Google Drive — os arquivos duplicados que surgiram me levaram a adotar **Docker** para testes reproduzíveis e a construir uma camada de validação antes de migrar tudo para **Azure Cosmos DB** (Meritage Homes, EUA). Hoje orquestro agentes de IA generativa para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
 
 </td>
 <td width="50%" valign="top">
 
 **🇺🇸 EN-US**<br/>
-Computer Engineering student (5th semester) focused on pragmatic systems architecture. At **Paware Softwares**, I lead critical migrations to Azure Cosmos DB and generative AI agent orchestration. My approach bypasses *hype* to focus on data integrity and real-world utility.
+Computer Engineering student (5th semester). At **Paware Softwares**, I started by writing automated scripts with cookies to extract datasets from Google Drive — the duplicated files that surfaced pushed me to adopt **Docker** for reproducible testing and to build a validation layer before migrating everything to **Azure Cosmos DB** (Meritage Homes, USA). Now I orchestrate generative AI agents for HelloSocial. I learn by solving real problems, not following tutorials.
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Computer Engineering student (5th semester) focused on pragmatic systems archite
 
 > **Paware Softwares** · Full-Stack Developer · `Oct 2025 — Present`
 >
-> Engineered migration of high-volume datasets from Google Drive to **Azure Cosmos DB** for Meritage Homes (USA), ensuring data integrity and security in production. Architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**. Docker environments for testing and consistency in conversational AI agents.
+> Built automated extraction scripts (cookie-based auth) to pull legacy datasets from Google Drive for **Meritage Homes (USA)**. When duplicated files exposed gaps in the process, I introduced **Docker** for reproducible test environments and wrote a validation layer that became the backbone of the final migration to **Azure Cosmos DB**. Now architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**.
 
 > **SuperNerds** · Robotics Instructor · `Sep 2025 — Oct 2025`
 >
@@ -122,10 +122,11 @@ Minecraft bot with natural language commands via LLM (NVIDIA NIM API) — mine, 
 <summary><b>Azure Cosmos DB Migration — Meritage Homes</b></summary>
 <br/>
 
-Migrated high-volume legacy datasets from Google Drive to Azure Cosmos DB for a US homebuilding company. Key architectural decisions:
+What started as cookie-based scripts to extract datasets from Google Drive revealed duplicated and inconsistent files — a problem that couldn't be solved by simply pushing data to a new database. The migration architecture that emerged:
 
-- **Schema validation layer** — Python-based consistency checks before every write, ensuring no data corruption during transfer
-- **Parallel BLOB processing** — concurrent transfer of large binary objects with configurable throughput limits to avoid throttling
+- **Cookie-based extraction layer** — automated scripts using session cookies to bypass Google Drive access controls, pulling hundreds of files on schedule
+- **Docker for reproducibility** — duplicated files across runs made local testing unreliable; containerized the entire extraction + validation pipeline so every run starts from a known state
+- **Schema validation layer** — Python-based consistency checks before every write, catching the duplicates and schema mismatches that the original scripts missed
 - **Automated rollback triggers** — on 4xx/5xx API responses, the pipeline halts and reverts the batch to a known-good checkpoint
 - **Idempotent upsert pattern** — `create_if_missing / replace_if_exists` ensures re-runs don't duplicate or orphan records
 
@@ -175,8 +176,8 @@ Solved the "no-signal" problem in forestry field work with a custom sync engine:
 
 ### Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=xAngryBadger&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=456A4B&icon_color=8B6914&text_color=8B9481" width="48%" alt="Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xAngryBadger&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=456A4B&text_color=8B9481&langs_count=10" width="45%" alt="Top Languages" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=xAngryBadger&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=456A4B&icon_color=8B6914&text_color=8B9481" width="48%" alt="Stats" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xAngryBadger&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=456A4B&text_color=8B9481&langs_count=10" width="45%" alt="Top Languages" />
 
 ---
 
