@@ -1,141 +1,183 @@
-<div align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="70%" align="left" valign="top">
 
-<img src="assets/banner.svg" width="100%" alt="Isaac Nathan — Full-Stack AI Engineer" />
+# Isaac Nathan
+**Full-Stack AI Engineer · Computer Engineering · Cloud Architecture**
 
+[**Portfolio**](https://xangrybadger.github.io/isaac-vitae/) · [**LinkedIn**](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/) · [**Email**](mailto:isaacnathandasilva@gmail.com)
+
+</td>
+<td width="30%" align="right" valign="top">
+
+<img src="https://avatars.githubusercontent.com/xAngryBadger" width="120" style="border: 2px solid #456A4B; border-radius: 4px;" alt="Isaac Nathan" />
+
+</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="8">
+<tr>
+<td width="50%" valign="top">
+
+**🇧🇷 PT-BR**<br/>
+Estudante de Engenharia de Computação (5º semestre) focado em arquitetura de sistemas pragmáticos. Na **Paware Softwares**, lidero migrações críticas para Azure Cosmos DB e orquestração de agentes de IA generativa. Minha abordagem ignora o *hype* para focar em integridade de dados e utilidade real.
+
+</td>
+<td width="50%" valign="top">
+
+**🇺🇸 EN-US**<br/>
+Computer Engineering student (5th semester) focused on pragmatic systems architecture. At **Paware Softwares**, I lead critical migrations to Azure Cosmos DB and generative AI agent orchestration. My approach bypasses *hype* to focus on data integrity and real-world utility.
+
+</td>
+</tr>
+</table>
+
+> *Utility over hype. Data integrity over demo polish. Ship what works.*
+
+---
+
+### Core Stack
+
+**AI & Data** — `GPT-4.1` · `DALL-E 3` · `Flux` · `Ollama` · `PyTorch` · `DeepForest` · `Azure OpenAI`
+
+**Backend** — `Python` · `FastAPI` · `Azure Cosmos DB` · `Docker` · `Node.js`
+
+**Frontend** — `React 19` · `TypeScript` · `Flutter` · `Tailwind CSS v4`
+
+**Infra & Tools** — `Linux (CachyOS/Hyprland)` · `Git` · `PocketBase` · `PyInstaller/Inno Setup`
+
+---
+
+### Professional Trajectory
+
+> **Paware Softwares** · Full-Stack Developer · `Oct 2025 — Present`
+>
+> Engineered migration of high-volume datasets from Google Drive to **Azure Cosmos DB** for Meritage Homes (USA), ensuring data integrity and security in production. Architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**. Docker environments for testing and consistency in conversational AI agents.
+
+> **SuperNerds** · Robotics Instructor · `Sep 2025 — Oct 2025`
+>
+> Taught programming logic and robotics to children and teens — Arduino, visual platforms, and hands-on projects connecting theory to real applications.
+
+---
+
+### Selected Engineering Projects
+
+<table width="100%">
+<tr>
+<td width="8%" align="center">🦅</td>
+<td>
+<strong>HarpIA</strong> · <a href="https://github.com/xAngryBadger/harpia">source</a><br/>
+Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling, autonomous agentic pipeline (copywriting, image search, design compositing, video generation). Zero-cost by default with SQLite + local PIL.<br/>
+<code>Python</code> <code>GPT-4.1</code> <code>DALL-E 3</code> <code>Flux 2.0 Pro</code> <code>Sora</code> <code>Veo 3.1</code> <code>Azure Cosmos DB</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">📱</td>
+<td>
+<strong>Flora Sensus</strong> · <a href="https://github.com/xAngryBadger/flora-sensus">source</a><br/>
+Offline-first forest inventory app with full sync engine — conflict detection, atomic rollback, UUID remapping for client-server reconciliation. React admin panel with XLSX/PDF/CSV export. 24K+ hand-crafted LOC, 30+ features.<br/>
+<code>Flutter</code> <code>Dart</code> <code>Drift/SQLite</code> <code>React</code> <code>PocketBase</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🌲</td>
+<td>
+<strong>SRF System</strong> · <a href="https://github.com/xAngryBadger/srf-system">source</a><br/>
+Operational planning engine for large-scale forest restoration — generates executive dossiers, activity schedules, manages tariffs/crews/territories. NiceGUI + Rich CLI interface.<br/>
+<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🌿</td>
+<td>
+<strong>ForestAI</strong> · <a href="https://github.com/xAngryBadger/forestai">source</a><br/>
+Forest species detection and classification with Deep Learning — full pipeline: DeepForest training, stratified splits, bounding box validation. Ongoing research project.<br/>
+<code>PyTorch</code> <code>DeepForest</code> <code>OpenCV</code> <code>scikit-learn</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦊</td>
+<td>
+<strong>Fennec Excel</strong> · <a href="https://github.com/xAngryBadger/Sahara-Fenneck">source</a><br/>
+Desktop app connecting Excel to a local AI agent (Ollama) — ReAct reasoning loop, 6+ OAuth integrations (Gmail, Teams, Calendar, Drive, Outlook, Trello), auto-checkpoint, native Windows installer.<br/>
+<code>Python</code> <code>Ollama</code> <code>CustomTkinter</code> <code>xlwings/COM</code> <code>Inno Setup</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🤖</td>
+<td>
+<strong>MaineCoon</strong> · <a href="https://github.com/xAngryBadger/minepal">source</a><br/>
+Minecraft bot with natural language commands via LLM (NVIDIA NIM API) — mine, craft, follow, navigate, interact through chat. Reinforcement learning module for autonomous behavior.<br/>
+<code>Node.js</code> <code>mineflayer</code> <code>NVIDIA NIM API</code> <code>Reinforcement Learning</code>
+</td>
+</tr>
+</table>
+
+---
+
+### Technical Spotlights
+
+<details>
+<summary><b>Azure Cosmos DB Migration — Meritage Homes</b></summary>
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&pause=800&color=8B6914&center=true&vCenter=true&repeat=true&width=600&height=28&lines=Engenharia+de+Computa%C3%A7%C3%A3o+%C2%B7+IA+%C2%B7+Cloud+%C2%B7+IoT;Computer+Engineering+%C2%B7+AI+%C2%B7+Cloud+%C2%B7+IoT" alt="Subtitle" />
+Migrated high-volume legacy datasets from Google Drive to Azure Cosmos DB for a US homebuilding company. Key architectural decisions:
 
-<!-- HERO GIF PLACEHOLDER — Replace with your own GIF/video -->
-<!-- <img src="hero.gif" width="100%" alt="Hero" /> -->
+- **Schema validation layer** — Python-based consistency checks before every write, ensuring no data corruption during transfer
+- **Parallel BLOB processing** — concurrent transfer of large binary objects with configurable throughput limits to avoid throttling
+- **Automated rollback triggers** — on 4xx/5xx API responses, the pipeline halts and reverts the batch to a known-good checkpoint
+- **Idempotent upsert pattern** — `create_if_missing / replace_if_exists` ensures re-runs don't duplicate or orphan records
 
-<br/><br/>
+</details>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-isaac%20vitae-456A4B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://xangrybadger.github.io/isaac-vitae/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-isaac--nathan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
-[![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D44836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:isaacnathandasilva@gmail.com)
+<details>
+<summary><b>Flora Sensus — Offline Sync Engine Architecture</b></summary>
+<br/>
 
-</div>
+Solved the "no-signal" problem in forestry field work with a custom sync engine:
 
----
+- **Conflict detection** — server timestamps vs. local timestamps with last-write-wins policy and manual resolution fallback
+- **UUID remapping** — client-generated UUIDs are reconciled with server-assigned IDs on sync, cascading through the full FK chain (Propriedade → UT → Parcela → Planta → Foto)
+- **Atomic rollback** — if any part of a multi-table sync fails, the entire batch reverts via Drift transaction wrapping
+- **Exponential backoff with jitter** — prevents thundering herd when multiple field devices reconnect simultaneously
+- **Auth retry wrapper** — transparent token refresh on 401s, with ngrok bypass for development
 
-### 🇧🇷 PT
+</details>
 
-Engenheiro de Computação no 5° semestre, desenvolvendo profissionalmente na **Paware Softwares** — onde migrei bases de dados complexas do Google Drive para Azure Cosmos DB (Meritage Homes, EUA) e construí agentes de IA para geração de imagens no HelloSocial (Flux, DALL-E 3, Placid/Canva APIs).
+<details>
+<summary><b>HarpIA — Agentic Pipeline Design</b></summary>
+<br/>
 
-Antes disso, ensinei robótica e lógica de programação para crianças e adolescentes na SuperNerds — Arduino, plataformas visuais e projetos práticos.
+7+ AI models accessible through a unified interface, orchestrated by a GPT-4.1 agent:
 
-No tempo livre: dois cachorros (Chow Chow + Border Collie), desenvolvimento pessoal, e ricing meu CachyOS/Hyprland. Acredito que IA deve ser ferramenta prática que resolve problemas reais — não hype.
+- **Tool calling with schema enforcement** — the agent selects from a defined tool schema (image generation, copy writing, template selection, Pexels search) and the pipeline validates each tool call against the schema before execution
+- **Multi-iteration reasoning loop** — up to 10 iterations of think → call → observe before returning a final result
+- **Zero-cost fallback** — when no paid API is needed, a PIL compositor renders designs locally with 8 layout templates, brand colors, and badge overlays using SQLite for state persistence
+- **Cron-ready** — file-locking prevents concurrent runs; stuck batch recovery handles orphaned processes automatically
+- **Backend swap** — local SQLite for development, Azure Cosmos DB + Blob Storage for production, toggled via environment config
 
-### 🇺🇸 EN
-
-Computer Engineering student in my 5th semester, working professionally at **Paware Softwares** — where I migrated complex databases from Google Drive to Azure Cosmos DB (Meritage Homes, USA) and built AI agents for image generation at HelloSocial (Flux, DALL-E 3, Placid/Canva APIs).
-
-Before that, I taught robotics and programming logic to kids and teens at SuperNerds — Arduino, visual platforms, and hands-on projects.
-
-Off-hours: two dogs (Chow Chow + Border Collie), personal development, and ricing my CachyOS/Hyprland. I believe AI should be a practical tool that solves real problems — not hype.
-
----
-
-## 🏢 Experience
-
-**Paware Softwares** · Full-Stack Developer · Oct 2025 — Present
-
-- Migrated complex databases to Azure Cloud for **Meritage Homes (USA)** — ensuring data integrity and security in production
-- Built and evolved AI agents for **HelloSocial** — image generation pipeline with Flux, DALL-E 3, and Placid/Canva APIs
-- Docker environments for testing and consistency in conversational AI agents
-
-**SuperNerds** · Robotics Instructor · Sep 2025 — Oct 2025
-
-- Taught programming logic and robotics to children and teens using Arduino and visual platforms
-- Developed teaching materials connecting theory to real applications
+</details>
 
 ---
 
-## 🚀 Projects
+### Education & Certifications
 
-| | Project | What it does | Stack |
-|:---:|:---|:---|:---|
-| 🦅 | **[HarpIA](https://github.com/xAngryBadger/harpia)** | Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling, image/video generation, zero-cost PIL compositor | Python · GPT-4.1 · DALL-E 3 · Flux · Sora · Veo · Azure Cosmos DB |
-| 📱 | **[Flora Sensus](https://github.com/xAngryBadger/flora-sensus)** | Offline-first forest inventory app — custom sync engine, conflict detection, UUID remapping, atomic rollback | Flutter · Dart · Drift/SQLite · React · PocketBase |
-| 🌲 | **[SRF System](https://github.com/xAngryBadger/srf-system)** | Planning engine for large-scale forest restoration — executive dossiers, crew/territory allocation, activity schedules | Python · NiceGUI · Rich CLI · pandas · openpyxl |
-| 🌿 | **[ForestAI](https://github.com/xAngryBadger/forestai)** | Forest species detection & classification — DeepForest training, stratified splits, bounding box validation | PyTorch · DeepForest · OpenCV · scikit-learn |
-| 🦊 | **[Fennec Excel](https://github.com/xAngryBadger/Sahara-Fenneck)** | Local AI assistant for Excel via Ollama — ReAct agent, 6+ OAuth integrations, auto-checkpoint | Python · Ollama · CustomTkinter · xlwings · Inno Setup |
-| 🤖 | **[MaineCoon](https://github.com/xAngryBadger/minepal)** | Minecraft bot with natural language commands via LLM — mine, craft, navigate, interact through chat | Node.js · mineflayer · NVIDIA NIM API · RL |
-
----
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,typescript,react,flutter,dart,fastapi,azure,docker,git,linux,pytorch,sqlite,tailwind,vite,nodejs,pandas&perline=8" alt="Skills" />
-
-</div>
-
----
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=xAngryBadger&theme=darkhub&rank=SSS,SS,S,AAA,AA,A&column=8&no-bg=true&no-frame=true&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=xAngryBadger&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=456A4B&icon_color=8B6914&text_color=8B9481" width="48%" alt="Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=xAngryBadger&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=1A2A1A&ring=456A4B&fire=8B6914&curr=456A4B&sideLabels=8B9481&dates=555555" width="48%" alt="Streak" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xAngryBadger&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=456A4B&text_color=8B9481&langs_count=10" width="60%" alt="Top Languages" />
-
-</div>
-
----
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xAngryBadger&bg_color=0D1117&color=8B9481&line=456A4B&point=8B6914&area=true&hide_border=true&custom_title=Recent%20Activity&radius=6)](https://github.com/Ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
-  <img alt="github-snake" src="assets/github-snake.svg" />
-</picture>
-
-</div>
-
----
-
-## 🎓 Education & Certifications
-
-**Computer Engineering** · Cruzeiro do Sul · 2024 — 2029 · 5th semester (in progress)
+**B.S. Computer Engineering** · Cruzeiro do Sul · 2024 — 2029 · 5th semester (in progress)
 
 **Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Intro to Cybersecurity
 
 **Gov AI Program (PBIA)** — AI for Process Optimization & Decision-Making · 71h · Enap/Serpro
 
-**KUMON** — Fluent English · 3 years
+**KUMON** — English fluency · 3 years · enables technical documentation and meetings with international teams
 
 ---
 
-<div align="center">
+### Stats
 
-📈 **7+ AI models integrated** · ☁️ **Azure Cosmos DB production migrations** · 🌿 **Forest AI + IoT** · 🌐 **Bilingual PT/EN** · 🐧 **CachyOS/Hyprland daily driver**
+<img src="https://github-readme-stats.vercel.app/api?username=xAngryBadger&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=456A4B&icon_color=8B6914&text_color=8B9481" width="48%" alt="Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xAngryBadger&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=456A4B&text_color=8B9481&langs_count=10" width="45%" alt="Top Languages" />
 
-<br/>
+---
 
-<img src="https://komarev.com/ghpvc/?username=xAngryBadger&style=for-the-badge&color=456A4B&label=PROFILE+VIEWS" alt="Views" />
-
-</div>
+Mariana, MG — Brazil · Open to high-impact AI/Cloud collaborations
