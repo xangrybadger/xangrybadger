@@ -21,7 +21,7 @@
 <td width="50%" valign="top">
 
 **🇧🇷 PT-BR**<br/>
-Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e arquitectei pipelines de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
+Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e arquitetei pipelines de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
 
 </td>
 <td width="50%" valign="top">
@@ -63,6 +63,18 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 
 ---
 
+### Stack Principal
+
+**IA & Dados** — `GPT-4.1` · `DALL-E 3` · `Flux` · `Ollama` · `PyTorch` · `DeepForest` · `Azure OpenAI`
+
+**Backend** — `Python` · `FastAPI` · `Azure Cosmos DB` · `Docker` · `Node.js`
+
+**Frontend** — `React 19` · `TypeScript` · `Flutter` · `Tailwind CSS v4`
+
+**Infra & Ferramentas** — `Linux (CachyOS/Hyprland)` · `Git` · `PocketBase` · `PyInstaller/Inno Setup`
+
+---
+
 ### Core Stack
 
 **AI & Data** — `GPT-4.1` · `DALL-E 3` · `Flux` · `Ollama` · `PyTorch` · `DeepForest` · `Azure OpenAI`
@@ -75,6 +87,18 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 
 ---
 
+### Trajetória Profissional
+
+> **Paware Softwares** · Full-Stack Developer · `Out 2025 — Mai 2026`
+>
+> Construí scripts de extração automatizada (auth via cookies) para puxar datasets legados do Google Drive para a **Meritage Homes (EUA)** — trabalhando diretamente com Luciano Amado (Orlando, FL). Scripts lidavam com compressão, renomeação e injeção em painéis de apresentação para **embedding via agente WhatsApp** (com limites rígidos de tamanho de arquivo). Bati num muro cross-platform: Android abria arquivos nativamente, mas iPhone exigia headers `application/octet-stream` para forçar abertura de ZIPs no Firefox. Quando arquivos duplicados expuseram falhas, introduzi **Docker** para ambientes de teste reproduzíveis e escrevi uma camada de validação que virou o backbone da migração final para **Azure Cosmos DB**. Também arquitetei pipelines de geração de imagens com IA (Flux, DALL-E 3, Placid/Canva) para o **HelloSocial**.
+
+> **SuperNerds** · Instrutor de Robótica · `Set 2025 — Out 2025`
+>
+> Ensinei lógica de programação e robótica para crianças e adolescentes — Arduino e LEGO. Aprendi ambas em menos de duas semanas a partir da minha base em programação, depois desenvolvi projetos práticos conectando teoria a aplicações reais. Conciliei manhãs aqui com a Paware à noite.
+
+---
+
 ### Professional Trajectory
 
 > **Paware Softwares** · Full-Stack Developer · `Oct 2025 — May 2026`
@@ -84,6 +108,61 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 > **SuperNerds** · Robotics Instructor · `Sep 2025 — Oct 2025`
 >
 > Taught programming logic and robotics to children and teens — Arduino and LEGO platforms. Learned both in under two weeks from my coding background, then developed hands-on projects connecting theory to real applications. Balanced mornings here with Paware at night.
+
+---
+
+### Projetos de Engenharia Selecionados
+
+<table width="100%">
+<tr>
+<td width="8%" align="center">🦅</td>
+<td>
+<strong>HarpIA</strong> · <a href="https://github.com/xAngryBadger/harpia">código</a><br/>
+Motor de automação criativa com 7+ modelos de IA — agente GPT-4.1 com tool calling, pipeline agentic autônomo (copywriting, busca de imagens, composição de design, geração de vídeo). Stack leve por padrão (SQLite + PIL local), com fallback para APIs pagas quando necessário.<br/>
+<code>Python</code> <code>GPT-4.1</code> <code>DALL-E 3</code> <code>Flux 2.0 Pro</code> <code>Sora</code> <code>Veo 3.1</code> <code>Azure Cosmos DB</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">📱</td>
+<td>
+<strong>Flora Sensus</strong> · <a href="https://github.com/xAngryBadger/flora-sensus">código</a><br/>
+App offline-first de inventário florestal com motor de sync completo — detecção de conflitos, rollback atômico, remapping de UUIDs para reconciliação cliente-servidor. Painel admin React com exportação XLSX/PDF/CSV. ~24K LOC — arquitetura e lógica de sync construídas do zero; código gerado com apoio de LLM (web) e revisado manualmente.<br/>
+<code>Flutter</code> <code>Dart</code> <code>Drift/SQLite</code> <code>React</code> <code>PocketBase</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🌲</td>
+<td>
+<strong>SRF System</strong> · <a href="https://github.com/xAngryBadger/srf-system">código</a><br/>
+Motor de planejamento operacional para restauração florestal em larga escala — gera dossiês executivos, cronogramas de atividades, gerencia tarifas/equipes/territórios. Interface NiceGUI + Rich CLI.<br/>
+<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🌿</td>
+<td>
+<strong>ForestAI</strong> · <a href="https://github.com/xAngryBadger/forestai">código</a><br/>
+Detecção e classificação de espécies florestais com Deep Learning — pipeline completo: treinamento DeepForest, splits estratificadas, validação de bounding boxes. Projeto de pesquisa em andamento.<br/>
+<code>PyTorch</code> <code>DeepForest</code> <code>OpenCV</code> <code>scikit-learn</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦊</td>
+<td>
+<strong>Fennec Excel</strong> · <a href="https://github.com/xAngryBadger/Sahara-Fenneck">código</a><br/>
+App desktop conectando Excel a um agente de IA local (Ollama) — loop de raciocínio ReAct, 6+ integrações OAuth (Gmail, Teams, Calendar, Drive, Outlook, Trello), auto-checkpoint, instalador nativo Windows.<br/>
+<code>Python</code> <code>Ollama</code> <code>CustomTkinter</code> <code>xlwings/COM</code> <code>Inno Setup</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🤖</td>
+<td>
+<strong>MaineCoon</strong> · <a href="https://github.com/xAngryBadger/minepal">código</a><br/>
+Bot de Minecraft com comandos em linguagem natural via LLM (NVIDIA NIM API) — minerar, craftar, seguir, navegar, interagir pelo chat. Módulo de reinforcement learning para comportamento autônomo.<br/>
+<code>Node.js</code> <code>mineflayer</code> <code>NVIDIA NIM API</code> <code>Reinforcement Learning</code>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -139,6 +218,68 @@ Minecraft bot with natural language commands via LLM (NVIDIA NIM API) — mine, 
 </td>
 </tr>
 </table>
+
+---
+
+### Destaques Técnicos
+
+<details>
+<summary><b>Migração Azure Cosmos DB — Meritage Homes</b></summary>
+<br/>
+
+O que começou como scripts baseados em cookies para extrair datasets do Google Drive para a equipe do Luciano Amado (Orlando, FL) revelou arquivos duplicados e inconsistentes — um problema que não podia ser resolvido simplesmente enviando dados para um novo banco. O pipeline tinha que lidar com mais do que migração:
+
+- **Camada de extração via cookies** — scripts automatizados usando cookies de sessão para bypassar controles de acesso do Google Drive, puxando centenas de arquivos em agenda
+- **Compressão + renomeação + injeção em painéis** — datasets comprimidos, renomeados segundo as convenções da Meritage, e injetados em painéis prontos para embedding via agente WhatsApp (com limites rígidos de tamanho)
+- **Resolução cross-platform de MIME types** — Android abria arquivos nativamente, mas iPhone recusava abrir ZIPs inline; a solução foi servir com headers `application/octet-stream` para forçar o Firefox a tratar o download
+- **Docker para reprodutibilidade** — arquivos duplicados entre execuções tornaram testes locais não-confiáveis; containerizei todo o pipeline de extração + validação para que cada execução partisse de um estado conhecido
+- **Camada de validação de schema** — checagens de consistência em Python antes de cada escrita, capturando duplicatas e incompatibilidades de schema que os scripts originais não detectavam
+- **Triggers de rollback automatizado** — em respostas 4xx/5xx da API, o pipeline para e reverte o batch para um checkpoint known-good
+- **Padrão upsert idempotente** — `create_if_missing / replace_if_exists` garante que re-execuções não duplicam nem orfãm registros
+
+</details>
+
+<details>
+<summary><b>ForestAI — Visão Computacional do Zero</b></summary>
+<br/>
+
+Construído sem IA-assisted coding — Stack Overflow e Thonny IDE apenas. O projeto que iniciou minha curva de aprendizado de iniciante até onde estou agora:
+
+- **Anotação manual de dados** — centenas de imagens de drone da Fundação Renova, bounding boxes desenhados à mão para espécies florestais. Trabalho duro, mas me ensinou o que o modelo realmente vê
+- **YOLO + DeepForest** — experimentei múltiplas arquiteturas de detecção; o backbone RetinaNet do DeepForest deu os melhores resultados para imagens de dossel aéreo
+- **Treinamento em GPU local** — PyTorch em hardware de consumo, splits estratificadas train/val para prevenir overfitting em trajetos de voo similares
+- **Interpretação no TensorBoard** — aprendi a ler curvas de loss, tradeoffs precision-recall, e detectar quando o modelo estava memorizando vs. generalizando
+- **O jeito difícil foi o ponto** — métodos trabalhosos, sem copilot, construindo intuição quebrando coisas. Essa base fez cada framework subsequente clicar mais rápido
+
+</details>
+
+<details>
+<summary><b>Flora Sensus — Arquitetura do Motor de Sync Offline</b></summary>
+<br/>
+
+Resolvi o problema de "sem sinal" no trabalho de campo florestal com um motor de sync custom:
+
+- **Detecção de conflitos** — timestamps do servidor vs. locais com política last-write-wins e fallback de resolução manual
+- **Remapping de UUIDs** — UUIDs gerados pelo cliente são reconciliados com IDs do servidor no sync, em cascata pela cadeia completa de FKs (Propriedade → UT → Parcela → Planta → Foto)
+- **Rollback atômico** — se qualquer parte de um sync multi-tabela falhar, o batch inteiro reverte via transação Drift
+- **Backoff exponencial com jitter** — previne thundering herd quando múltiplos dispositivos de campo reconectam simultaneamente
+- **Wrapper de retry de auth** — refresh transparente de token em 401s, com bypass ngrok para desenvolvimento
+
+</details>
+
+<details>
+<summary><b>HarpIA — Design de Pipeline Agentic</b></summary>
+<br/>
+
+7+ modelos de IA acessíveis por interface unificada, orquestrados por um agente GPT-4.1:
+
+- **Tool calling com enforcement de schema** — o agente seleciona de um schema definido (geração de imagem, copywriting, seleção de template, busca Pexels) e o pipeline valida cada chamada contra o schema antes da execução
+- **Loop de raciocínio multi-iteração** — até 10 iterações de pensar → chamar → observar antes de retornar resultado final
+- **Stack leve por padrão** — quando nenhuma API paga é necessária, um compositor PIL renderiza designs localmente com 8 templates de layout, cores de marca, e overlays de badge usando SQLite para persistência de estado; fallback para APIs pagas quando necessário
+- **Cron-ready** — file-locking previne execuções concorrentes; recuperação de batch travado lida com processos órfãos automaticamente
+- **Swap de backend** — SQLite local para desenvolvimento, Azure Cosmos DB + Blob Storage para produção, alternado via config de ambiente
+
+</details>
 
 ---
 
@@ -201,6 +342,22 @@ Solved the "no-signal" problem in forestry field work with a custom sync engine:
 - **Backend swap** — local SQLite for development, Azure Cosmos DB + Blob Storage for production, toggled via environment config
 
 </details>
+
+---
+
+### Educação & Certificações
+
+**UFOP** · Química Industrial · 2022 · *onde Python começou*
+
+**UFSJ** · Engenharia Química · 2022 — 2024 · *período de pivô — longe do código, acompanhando IA de perto*
+
+**Cruzeiro do Sul** · Engenharia de Computação · 2024 — 2029 · 5º período (em andamento)
+
+**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Intro to Cybersecurity
+
+**Programa Gov AI (PBIA)** — IA para Otimização de Processos & Tomada de Decisão · 71h · Enap/Serpro
+
+**KUMON** — Fluência em inglês · 3 anos · habilita documentação técnica e reuniões com equipes internacionais
 
 ---
 
