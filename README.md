@@ -21,19 +21,33 @@
 <td width="50%" valign="top">
 
 **🇧🇷 PT-BR**<br/>
-Estudante de Engenharia de Computação (5º semestre). Na **Paware Softwares**, comecei criando scripts automatizados com cookies para extrair datasets do Google Drive — os arquivos duplicados que surgiram me levaram a adotar **Docker** para testes reproduzíveis e a construir uma camada de validação antes de migrar tudo para **Azure Cosmos DB** (Meritage Homes, EUA). Hoje orquestro agentes de IA generativa para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
+Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Hoje na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e orquestro agentes de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
 
 </td>
 <td width="50%" valign="top">
 
 **🇺🇸 EN-US**<br/>
-Computer Engineering student (5th semester). At **Paware Softwares**, I started by writing automated scripts with cookies to extract datasets from Google Drive — the duplicated files that surfaced pushed me to adopt **Docker** for reproducible testing and to build a validation layer before migrating everything to **Azure Cosmos DB** (Meritage Homes, USA). Now I orchestrate generative AI agents for HelloSocial. I learn by solving real problems, not following tutorials.
+My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny IDE, no GPT, extra afternoon classes just to keep learning. After 2 years in Chemical Engineering at UFSJ, I came home and pivoted to Computer Engineering. I built ForestAI from scratch using Stack Overflow and Thonny, manually annotating hundreds of drone images from Fundação Renova. Now at **Paware Softwares**, I migrated databases to Azure Cosmos DB (Meritage Homes, USA) and orchestrate AI agents for HelloSocial. I learn by solving real problems, not following tutorials.
 
 </td>
 </tr>
 </table>
 
 > *Utility over hype. Data integrity over demo polish. Ship what works.*
+
+---
+
+### Origin
+
+**2022** — Fell in love with Python at UFOP (Industrial Chemistry). Thonny IDE, pre-GPT era, extra afternoon classes just to code more.
+
+**2022–2024** — Two years in Chemical Engineering at UFSJ (Ouro Branco). Away from code, but watching the AI field closely.
+
+**2024** — Pivoted to Computer Engineering at Cruzeiro do Sul. Built **ForestAI** from the ground up — Stack Overflow and Thonny, not AI-assisted. Manually annotated hundreds of drone images from Fundação Renova, trained species detection models (YOLO, PyTorch, DeepForest) on local GPU, interpreted training curves on TensorBoard. The hard way — and it stuck.
+
+**2024–2025** — Self-taught expansion: system scripts, PC optimization, Windows deployments (Registry, Group Policy, Massgrave). IT services for home and church. Exchanging code and ideas with two childhood friends — one in Portugal, one in the South.
+
+**Mid-2025** — One of those friends saw ForestAI and introduced me to Paware Softwares. The rest is below.
 
 ---
 
@@ -53,11 +67,11 @@ Computer Engineering student (5th semester). At **Paware Softwares**, I started 
 
 > **Paware Softwares** · Full-Stack Developer · `Oct 2025 — Present`
 >
-> Built automated extraction scripts (cookie-based auth) to pull legacy datasets from Google Drive for **Meritage Homes (USA)**. When duplicated files exposed gaps in the process, I introduced **Docker** for reproducible test environments and wrote a validation layer that became the backbone of the final migration to **Azure Cosmos DB**. Now architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**.
+> Built automated extraction scripts (cookie-based auth) to pull legacy datasets from Google Drive for **Meritage Homes (USA)** — working directly with Luciano Amado (Orlando, FL). Scripts handled file compression, renaming, and injection into presentation panels ready for **WhatsApp agent embedding** (which had strict file size limits). Hit a cross-platform wall: Android displayed files natively, but iPhone required `application/octet-stream` headers to force ZIPs to open in Firefox. When duplicated files exposed gaps, I introduced **Docker** for reproducible test environments and wrote a validation layer that became the backbone of the final migration to **Azure Cosmos DB**. Now architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**.
 
 > **SuperNerds** · Robotics Instructor · `Sep 2025 — Oct 2025`
 >
-> Taught programming logic and robotics to children and teens — Arduino, visual platforms, and hands-on projects connecting theory to real applications.
+> Taught programming logic and robotics to children and teens — Arduino and LEGO platforms. Learned both in under two weeks from my coding background, then developed hands-on projects connecting theory to real applications. Balanced mornings here with Paware at night.
 
 ---
 
@@ -122,13 +136,29 @@ Minecraft bot with natural language commands via LLM (NVIDIA NIM API) — mine, 
 <summary><b>Azure Cosmos DB Migration — Meritage Homes</b></summary>
 <br/>
 
-What started as cookie-based scripts to extract datasets from Google Drive revealed duplicated and inconsistent files — a problem that couldn't be solved by simply pushing data to a new database. The migration architecture that emerged:
+What started as cookie-based scripts to extract datasets from Google Drive for Luciano Amado's team (Orlando, FL) revealed duplicated and inconsistent files — a problem that couldn't be solved by simply pushing data to a new database. The pipeline had to handle more than just migration:
 
 - **Cookie-based extraction layer** — automated scripts using session cookies to bypass Google Drive access controls, pulling hundreds of files on schedule
+- **File compression + renaming + panel injection** — datasets had to be compressed, renamed according to Meritage's naming conventions, and injected into presentation panels ready for WhatsApp agent embedding (which imposed strict file size limits)
+- **Cross-platform MIME type resolution** — Android devices displayed files natively, but iPhone refused to open ZIPs inline; the fix was serving them with `application/octet-stream` headers to force Firefox to handle the download
 - **Docker for reproducibility** — duplicated files across runs made local testing unreliable; containerized the entire extraction + validation pipeline so every run starts from a known state
 - **Schema validation layer** — Python-based consistency checks before every write, catching the duplicates and schema mismatches that the original scripts missed
 - **Automated rollback triggers** — on 4xx/5xx API responses, the pipeline halts and reverts the batch to a known-good checkpoint
 - **Idempotent upsert pattern** — `create_if_missing / replace_if_exists` ensures re-runs don't duplicate or orphan records
+
+</details>
+
+<details>
+<summary><b>ForestAI — Computer Vision from Scratch</b></summary>
+<br/>
+
+Built without AI-assisted coding — Stack Overflow and Thonny IDE only. The project that started my learning curve from newbie to where I am now:
+
+- **Manual data annotation** — hundreds of drone images from Fundação Renova, hand-labeled bounding boxes for forest species. Hard labor, but it taught me what the model actually sees
+- **YOLO + DeepForest** — experimented with multiple detection architectures; DeepForest's RetinaNet backbone gave the best results for overhead canopy imagery
+- **Local GPU training** — PyTorch on consumer hardware, stratified train/val splits to prevent overfitting on similar flight paths
+- **TensorBoard interpretation** — learned to read loss curves, precision-recall tradeoffs, and detect when the model was memorizing vs. generalizing
+- **The hard way was the point** — convoluted methods, no copilot, building intuition by breaking things. This foundation made every subsequent framework click faster
 
 </details>
 
@@ -164,7 +194,11 @@ Solved the "no-signal" problem in forestry field work with a custom sync engine:
 
 ### Education & Certifications
 
-**B.S. Computer Engineering** · Cruzeiro do Sul · 2024 — 2029 · 5th semester (in progress)
+**UFOP** · Industrial Chemistry · 2022 · *where Python began*
+
+**UFSJ** · Chemical Engineering · 2022 — 2024 · *pivot period — away from code, watching AI closely*
+
+**Cruzeiro do Sul** · Computer Engineering · 2024 — 2029 · 5th semester (in progress)
 
 **Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Intro to Cybersecurity
 
