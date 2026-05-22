@@ -131,14 +131,6 @@ App offline-first de inventário florestal com motor de sync completo — detec�
 </td>
 </tr>
 <tr>
-<td width="8%" align="center">🌲</td>
-<td>
-<strong>SRF System</strong> · <a href="https://github.com/xAngryBadger/srf-system">código</a><br/>
-Motor de planejamento operacional para restauração florestal em larga escala — gera dossiês executivos, cronogramas de atividades, gerencia tarifas/equipes/territórios. Interface NiceGUI + Rich CLI.<br/>
-<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
-</td>
-</tr>
-<tr>
 <td width="8%" align="center">🌿</td>
 <td>
 <strong>ForestAI</strong> · <a href="https://github.com/xAngryBadger/forestai">código</a><br/>
@@ -160,6 +152,54 @@ App desktop conectando Excel a um agente de IA local (Ollama) — loop de racioc
 <strong>MaineCoon</strong> · <a href="https://github.com/xAngryBadger/minepal">código</a><br/>
 Bot de Minecraft com comandos em linguagem natural via LLM (NVIDIA NIM API) — minerar, craftar, seguir, navegar, interagir pelo chat. Módulo de reinforcement learning para comportamento autônomo.<br/>
 <code>Node.js</code> <code>mineflayer</code> <code>NVIDIA NIM API</code> <code>Reinforcement Learning</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦫</td>
+<td>
+<strong>Capivara</strong> · <a href="https://xangrybadger.github.io/capivara/">demo</a> · <a href="https://github.com/xAngryBadger/capivara">código</a><br/>
+Suíte PDF completa estilo iLovePDF — 15 ferramentas (DOCX→PDF, PDF→DOCX, compressão, merge, split, rotação, marca d'água, numeração, cabeçalho/rodapé, proteção, desbloqueio, OCR, PDF→imagens, PDF/A). Backend FastAPI com StreamingResponse + cloudflared para túnel serverless gratuito via Google Colab.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>pypdf</code> <code>PyMuPDF</code> <code>cloudflared</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">👁️</td>
+<td>
+<strong>Tarsier</strong> · <a href="https://xangrybadger.github.io/tarsier/">demo</a> · <a href="https://github.com/xAngryBadger/tarsier">código</a><br/>
+Editor JSON visual com árvore interativa (ReactFlow), diff/patch, validação de schema, geração de TypeScript types. 100% client-side — zero backend, zero dados saem do navegador.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>CodeMirror 6</code> <code>ReactFlow</code> <code>Tailwind CSS v4</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦜</td>
+<td>
+<strong>Kakapo</strong> · <a href="https://xangrybadger.github.io/kakapo/">demo</a> · <a href="https://github.com/xAngryBadger/kakapo">código</a><br/>
+Editor de imagens completo no navegador — filtros, ajustes, crop, resize, draw. Motor de edição commit-based (cada operação gera snapshot, undo/redo navega pelo histórico). Canvas API nativo, 100% client-side.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>Canvas API</code> <code>Tailwind CSS v4</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦉</td>
+<td>
+<strong>Oilbird</strong> · <a href="https://xangrybadger.github.io/oilbird/">demo</a> · <a href="https://github.com/xAngryBadger/oilbird">código</a><br/>
+Conversor Markdown → PDF com preview em tempo real e temas customizáveis. Backend WeasyPrint para renderização PDF profissional (CSS Paged Media, headers/footers, page breaks). Cloudflared via Google Colab.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>WeasyPrint</code> <code>cloudflared</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦢</td>
+<td>
+<strong>Cegonha</strong> · <a href="https://xangrybadger.github.io/cegonha/">demo</a> · <a href="https://github.com/xAngryBadger/cegonha">código</a><br/>
+Gerador de currículo com templates editáveis, preview em tempo real, drag-reorder de seções e exportação PDF limpa — sem watermark, sem limite. Paleta sage green com tipografia editorial.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>Tailwind CSS v4</code> <code>PDF client-side</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🐋</td>
+<td>
+<strong>Orca</strong> · <a href="https://github.com/xAngryBadger/srf-system">código</a><br/>
+Motor de planejamento operacional para restauração florestal em larga escala — gera dossiês executivos, cronogramas, gerencia tarifas/equipes/territórios. Interface NiceGUI + Rich CLI. Anteriormente SRF System.<br/>
+<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
 </td>
 </tr>
 </table>
@@ -186,14 +226,6 @@ Offline-first forest inventory app with full sync engine — conflict detection,
 </td>
 </tr>
 <tr>
-<td width="8%" align="center">🌲</td>
-<td>
-<strong>SRF System</strong> · <a href="https://github.com/xAngryBadger/srf-system">source</a><br/>
-Operational planning engine for large-scale forest restoration — generates executive dossiers, activity schedules, manages tariffs/crews/territories. NiceGUI + Rich CLI interface.<br/>
-<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
-</td>
-</tr>
-<tr>
 <td width="8%" align="center">🌿</td>
 <td>
 <strong>ForestAI</strong> · <a href="https://github.com/xAngryBadger/forestai">source</a><br/>
@@ -215,6 +247,54 @@ Desktop app connecting Excel to a local AI agent (Ollama) — ReAct reasoning lo
 <strong>MaineCoon</strong> · <a href="https://github.com/xAngryBadger/minepal">source</a><br/>
 Minecraft bot with natural language commands via LLM (NVIDIA NIM API) — mine, craft, follow, navigate, interact through chat. Reinforcement learning module for autonomous behavior.<br/>
 <code>Node.js</code> <code>mineflayer</code> <code>NVIDIA NIM API</code> <code>Reinforcement Learning</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦫</td>
+<td>
+<strong>Capivara</strong> · <a href="https://xangrybadger.github.io/capivara/">demo</a> · <a href="https://github.com/xAngryBadger/capivara">source</a><br/>
+Full PDF suite à la iLovePDF — 15 tools (DOCX→PDF, PDF→DOCX, compress, merge, split, rotate, watermark, page numbers, header/footer, protect, unlock, OCR, PDF→images, PDF/A). FastAPI backend with StreamingResponse + cloudflared for free serverless tunneling via Google Colab.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>pypdf</code> <code>PyMuPDF</code> <code>cloudflared</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">👁️</td>
+<td>
+<strong>Tarsier</strong> · <a href="https://xangrybadger.github.io/tarsier/">demo</a> · <a href="https://github.com/xAngryBadger/tarsier">source</a><br/>
+Visual JSON editor with interactive tree (ReactFlow), diff/patch, schema validation, TypeScript type generation. 100% client-side — zero backend, zero data leaves the browser.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>CodeMirror 6</code> <code>ReactFlow</code> <code>Tailwind CSS v4</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦜</td>
+<td>
+<strong>Kakapo</strong> · <a href="https://xangrybadger.github.io/kakapo/">demo</a> · <a href="https://github.com/xAngryBadger/kakapo">source</a><br/>
+Full-featured browser image editor — filters, adjustments, crop, resize, draw. Commit-based editing engine (each operation generates a snapshot, undo/redo navigates history). Native Canvas API, 100% client-side.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>Canvas API</code> <code>Tailwind CSS v4</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦉</td>
+<td>
+<strong>Oilbird</strong> · <a href="https://xangrybadger.github.io/oilbird/">demo</a> · <a href="https://github.com/xAngryBadger/oilbird">source</a><br/>
+Markdown → PDF converter with real-time preview and customizable themes. WeasyPrint backend for professional PDF rendering (CSS Paged Media, headers/footers, page breaks). Cloudflared via Google Colab.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>WeasyPrint</code> <code>cloudflared</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🦢</td>
+<td>
+<strong>Cegonha</strong> · <a href="https://xangrybadger.github.io/cegonha/">demo</a> · <a href="https://github.com/xAngryBadger/cegonha">source</a><br/>
+Resume generator with editable templates, real-time preview, drag-reorder sections and clean PDF export — no watermark, no limits. Sage green palette with editorial typography.<br/>
+<code>React 19</code> <code>TypeScript</code> <code>Tailwind CSS v4</code> <code>Client-side PDF</code>
+</td>
+</tr>
+<tr>
+<td width="8%" align="center">🐋</td>
+<td>
+<strong>Orca</strong> · <a href="https://github.com/xAngryBadger/srf-system">source</a><br/>
+Operational planning engine for large-scale forest restoration — generates executive dossiers, activity schedules, manages tariffs/crews/territories. NiceGUI + Rich CLI interface. Formerly SRF System.<br/>
+<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
 </td>
 </tr>
 </table>
