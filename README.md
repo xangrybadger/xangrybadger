@@ -5,299 +5,148 @@
 # Isaac Nathan
 **Full-Stack AI Engineer · Computer Engineering · Cloud Architecture**
 
-[**Portfolio**](https://xangrybadger.github.io/isaac-vitae/) · [**LinkedIn**](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/) · [**Email**](mailto:isaacnathandasilva@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-xAngryBadger-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaac%20Nathan-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
+[![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D4A017?style=flat-square&logo=gmail)](mailto:isaacnathandasilva@gmail.com)
 
 </td>
 <td width="30%" align="right" valign="top">
 
-<img src="assets/foto-isaac.jpg" width="120" style="border: 2px solid #456A4B; border-radius: 4px;" alt="Isaac Nathan" />
+<img src="assets/foto-isaac.jpg" width="110" style="border: 2px solid #456A4B; border-radius: 4px;" alt="Isaac Nathan" />
 
 </td>
 </tr>
 </table>
 
-<table border="0" cellspacing="0" cellpadding="8">
-<tr>
-<td width="50%" valign="top">
+**🇧🇷 PT-BR** — Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e arquitetei pipelines de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
 
-**🇧🇷 PT-BR**<br/>
-Meu primeiro contato com Python foi em 2022 na UFOP (Química Industrial) — Thonny IDE, sem GPT, aulas extras à tarde só para continuar aprendendo. Depois de 2 anos em Engenharia Química na UFSJ, voltei para Mariana e mudei para Computação. Construí o ForestAI do zero usando Stack Overflow e Thonny, anotando manualmente centenas de imagens de drone da Fundação Renova. Na **Paware Softwares**, migrei bases para Azure Cosmos DB (Meritage Homes, EUA) e arquitetei pipelines de IA para o HelloSocial. Aprendo resolvendo problemas reais, não seguindo tutoriais.
+<details>
+<summary><b>🇺🇸 English version</b></summary>
 
-</td>
-<td width="50%" valign="top">
-
-**🇺🇸 EN-US**<br/>
 My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny IDE, no GPT, extra afternoon classes just to keep learning. After 2 years in Chemical Engineering at UFSJ, I came home and pivoted to Computer Engineering. I built ForestAI from scratch using Stack Overflow and Thonny, manually annotating hundreds of drone images from Fundação Renova. At **Paware Softwares**, I migrated databases to Azure Cosmos DB (Meritage Homes, USA) and architected AI pipelines for HelloSocial. I learn by solving real problems, not following tutorials.
 
-</td>
-</tr>
-</table>
+</details>
 
 ---
 
-### Origem
+### Stack
 
-**2022** — Me apaixonei por Python na UFOP (Química Industrial). Thonny IDE, era pré-GPT, aulas extras à tarde só pra continuar codando.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_CachyOS- FCC624?style=flat-square&logo=linux&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![GPT--4.1](https://img.shields.io/badge/GPT--4.1-412991?style=flat-square&logo=openai&logoColor=white)
 
-**2022–2024** — Dois anos em Engenharia Química na UFSJ (Ouro Branco). Longe do código, mas acompanhando a área de IA de perto.
+<details>
+<summary><b>Stack completo</b></summary>
 
-**2024** — Pivotei para Engenharia de Computação na Cruzeiro do Sul. Construí o **ForestAI** do zero — Stack Overflow e Thonny, sem IA-assistida. Anotei manualmente centenas de imagens de drone da Fundação Renova, treinei modelos de detecção de espécies (YOLO, PyTorch, DeepForest) em GPU local, interpretei curvas de treino no TensorBoard. Do jeito difícil — e ficou.
+| Categoria | Tecnologias |
+|---|---|
+| **IA & Dados** | GPT-4.1 · DALL-E 3 · Flux · Sora · Veo 3.1 · Ollama · PyTorch · DeepForest · Azure OpenAI · Gemini SDK |
+| **Backend** | Python · FastAPI · Node.js · Express · Java · Azure Cosmos DB · PocketBase · SQL |
+| **Frontend** | React 19 · TypeScript · Flutter · Tailwind CSS v4 · Vite · React Native (Expo 54) |
+| **Cloud & Infra** | Azure · Docker · Git · PocketBase · Linux (CachyOS/Hyprland) · PyInstaller/Inno Setup |
+| **Integrações** | Mercado Pago PIX · Canva Connect · Placid · Templated.io · Pexels API · NVIDIA NIM |
 
-**2024–2025** — Expansão autodidata: scripts de sistema, otimização de PC, deployments Windows (Registry, Group Policy, Massgrave). Serviços de TI para casa e igreja. Trocando código e ideias com dois amigos de infância — um em Portugal, outro no Sul.
-
-**Meados de 2025** — Um desses amigos viu o ForestAI e me apresentou à Paware Softwares. O resto está abaixo.
-
----
-
-### Origin
-
-**2022** — Fell in love with Python at UFOP (Industrial Chemistry). Thonny IDE, pre-GPT era, extra afternoon classes just to code more.
-
-**2022–2024** — Two years in Chemical Engineering at UFSJ (Ouro Branco). Away from code, but watching the AI field closely.
-
-**2024** — Pivoted to Computer Engineering at Cruzeiro do Sul. Built **ForestAI** from the ground up — Stack Overflow and Thonny, not AI-assisted. Manually annotated hundreds of drone images from Fundação Renova, trained species detection models (YOLO, PyTorch, DeepForest) on local GPU, interpreted training curves on TensorBoard. The hard way — and it stuck.
-
-**2024–2025** — Self-taught expansion: system scripts, PC optimization, Windows deployments (Registry, Group Policy, Massgrave). IT services for home and church. Exchanging code and ideas with two childhood friends — one in Portugal, one in the South.
-
-**Mid-2025** — One of those friends saw ForestAI and introduced me to Paware Softwares. The rest is below.
-
----
-
-### Stack Principal
-
-**IA & Dados** — `GPT-4.1` · `DALL-E 3` · `Flux` · `Ollama` · `PyTorch` · `DeepForest` · `Azure OpenAI`
-
-**Backend** — `Python` · `FastAPI` · `Azure Cosmos DB` · `Docker` · `Node.js`
-
-**Frontend** — `React 19` · `TypeScript` · `Flutter` · `Tailwind CSS v4`
-
-**Infra & Ferramentas** — `Linux (CachyOS/Hyprland)` · `Git` · `PocketBase` · `PyInstaller/Inno Setup`
+</details>
 
 ---
 
-### Core Stack
+### Trajetória
 
-**AI & Data** — `GPT-4.1` · `DALL-E 3` · `Flux` · `Ollama` · `PyTorch` · `DeepForest` · `Azure OpenAI`
+**2022** — Python na UFOP (Química Industrial). Thonny IDE, pré-GPT, aulas extras à tarde.
 
-**Backend** — `Python` · `FastAPI` · `Azure Cosmos DB` · `Docker` · `Node.js`
+**2022–2024** — Engenharia Química na UFSJ. Longe do código, acompanhando IA de perto.
 
-**Frontend** — `React 19` · `TypeScript` · `Flutter` · `Tailwind CSS v4`
+**2024** — Pivotei para Computação na Cruzeiro do Sul. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem IA-assisted. Anotei centenas de imagens de drone, treinei modelos em GPU local, interpretei curvas no TensorBoard.
 
-**Infra & Tools** — `Linux (CachyOS/Hyprland)` · `Git` · `PocketBase` · `PyInstaller/Inno Setup`
+**2024–2025** — Expansão autodidata: scripts de sistema, deployments Windows, serviços de TI.
+
+**Meados de 2025** — Um amigo viu o ForestAI e me apresentou à **Paware Softwares**. O resto está abaixo.
+
+<details>
+<summary><b>🇺🇸 English version</b></summary>
+
+**2022** — Python at UFOP (Industrial Chemistry). Thonny IDE, pre-GPT era, extra afternoon classes.
+
+**2022–2024** — Chemical Engineering at UFSJ. Away from code, watching AI closely.
+
+**2024** — Pivoted to Computer Engineering at Cruzeiro do Sul. Built **ForestAI** from scratch — Stack Overflow + Thonny, no AI-assisted coding. Annotated hundreds of drone images, trained models on local GPU, interpreted TensorBoard curves.
+
+**2024–2025** — Self-taught expansion: system scripts, Windows deployments, IT services.
+
+**Mid-2025** — A friend saw ForestAI and introduced me to **Paware Softwares**. The rest is below.
+
+</details>
 
 ---
 
-### Trajetória Profissional
+### Experiência Profissional
 
 > **Paware Softwares** · Full-Stack Developer · `Out 2025 — Mai 2026`
 >
-> Construí scripts de extração automatizada (auth via cookies) para puxar datasets legados do Google Drive para a **Meritage Homes (EUA)** — trabalhando diretamente com Luciano Amado (Orlando, FL). Scripts lidavam com compressão, renomeação e injeção em painéis de apresentação para **embedding via agente WhatsApp** (com limites rígidos de tamanho de arquivo). Bati num muro cross-platform: Android abria arquivos nativamente, mas iPhone exigia headers `application/octet-stream` para forçar abertura de ZIPs no Firefox. Quando arquivos duplicados expuseram falhas, introduzi **Docker** para ambientes de teste reproduzíveis e escrevi uma camada de validação que virou o backbone da migração final para **Azure Cosmos DB**. Também arquitetei pipelines de geração de imagens com IA (Flux, DALL-E 3, Placid/Canva) para o **HelloSocial**.
+> Migrei centenas de GB de datasets legados do Google Drive para **Azure Cosmos DB** (Meritage Homes, EUA) — pipeline com extração automatizada via cookies, compressão, Docker para ambientes reproduzíveis e validação de schema com rollback. Resolvi problema cross-platform de MIME types (Android vs iOS) que virou o backbone da migração. Arquitetei pipeline agentic de geração de imagens para o **HelloSocial** — GPT-4.1 tool calling, Flux + DALL-E 3 + Placid/Canva.
 
-> **SuperNerds** · Instrutor de Robótica · `Set 2025 — Out 2025`
+> **SuperNerds** · Instrutor de Robótica · `Set — Out 2025`
 >
-> Ensinei lógica de programação e robótica para crianças e adolescentes — Arduino e LEGO. Aprendi ambas em menos de duas semanas a partir da minha base em programação, depois desenvolvi projetos práticos conectando teoria a aplicações reais. Conciliei manhãs aqui com a Paware à noite.
+> Aprendi Arduino e LEGO em <2 semanas e ministrei aulas para crianças/adolescentes. Conciliei manhãs aqui com a Paware à noite.
 
----
-
-### Professional Trajectory
+<details>
+<summary><b>🇺🇸 English version</b></summary>
 
 > **Paware Softwares** · Full-Stack Developer · `Oct 2025 — May 2026`
 >
-> Built automated extraction scripts (cookie-based auth) to pull legacy datasets from Google Drive for **Meritage Homes (USA)** — working directly with Luciano Amado (Orlando, FL). Scripts handled file compression, renaming, and injection into presentation panels ready for **WhatsApp agent embedding** (which had strict file size limits). Hit a cross-platform wall: Android displayed files natively, but iPhone required `application/octet-stream` headers to force ZIPs to open in Firefox. When duplicated files exposed gaps, I introduced **Docker** for reproducible test environments and wrote a validation layer that became the backbone of the final migration to **Azure Cosmos DB**. Also architected AI image-generation pipelines (Flux, DALL-E 3, Placid/Canva) for **HelloSocial**.
+> Migrated hundreds of GB of legacy datasets from Google Drive to **Azure Cosmos DB** (Meritage Homes, USA) — pipeline with automated cookie-based extraction, compression, Docker for reproducible environments and schema validation with rollback. Resolved cross-platform MIME type issue (Android vs iOS) that became the migration backbone. Architected agentic image-generation pipeline for **HelloSocial** — GPT-4.1 tool calling, Flux + DALL-E 3 + Placid/Canva.
 
-> **SuperNerds** · Robotics Instructor · `Sep 2025 — Oct 2025`
+> **SuperNerds** · Robotics Instructor · `Sep — Oct 2025`
 >
-> Taught programming logic and robotics to children and teens — Arduino and LEGO platforms. Learned both in under two weeks from my coding background, then developed hands-on projects connecting theory to real applications. Balanced mornings here with Paware at night.
+> Learned Arduino and LEGO in under 2 weeks and taught robotics to children/teens. Balanced mornings here with evening work at Paware.
+
+</details>
 
 ---
 
-### Projetos de Engenharia Selecionados
+### Projetos
 
-<table width="100%">
-<tr>
-<td width="8%" align="center">🦅</td>
-<td>
-<strong>HarpIA</strong> · <a href="https://github.com/xAngryBadger/harpia">código</a><br/>
-Motor de automação criativa com 7+ modelos de IA — agente GPT-4.1 com tool calling, pipeline agentic autônomo (copywriting, busca de imagens, composição de design, geração de vídeo). Stack leve por padrão (SQLite + PIL local), com fallback para APIs pagas quando necessário.<br/>
-<code>Python</code> <code>GPT-4.1</code> <code>DALL-E 3</code> <code>Flux 2.0 Pro</code> <code>Sora</code> <code>Veo 3.1</code> <code>Azure Cosmos DB</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">📱</td>
-<td>
-<strong>Flora Sensus</strong> · <a href="https://github.com/xAngryBadger/flora-sensus">código</a><br/>
-App offline-first de inventário florestal com motor de sync completo — detecção de conflitos, rollback atômico, remapping de UUIDs para reconciliação cliente-servidor. Painel admin React com exportação XLSX/PDF/CSV. ~24K LOC — arquitetura e lógica de sync construídas do zero; código gerado com apoio de LLM (web) e revisado manualmente.<br/>
-<code>Flutter</code> <code>Dart</code> <code>Drift/SQLite</code> <code>React</code> <code>PocketBase</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🌿</td>
-<td>
-<strong>ForestAI</strong> · <a href="https://github.com/xAngryBadger/forestai">código</a><br/>
-Detecção e classificação de espécies florestais com Deep Learning — pipeline completo: treinamento DeepForest, splits estratificadas, validação de bounding boxes. Projeto de pesquisa em andamento.<br/>
-<code>PyTorch</code> <code>DeepForest</code> <code>OpenCV</code> <code>scikit-learn</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦊</td>
-<td>
-<strong>Fennec Excel</strong> · <a href="https://github.com/xAngryBadger/Sahara-Fenneck">código</a><br/>
-App desktop conectando Excel a um agente de IA local (Ollama) — loop de raciocínio ReAct, 6+ integrações OAuth (Gmail, Teams, Calendar, Drive, Outlook, Trello), auto-checkpoint, instalador nativo Windows.<br/>
-<code>Python</code> <code>Ollama</code> <code>CustomTkinter</code> <code>xlwings/COM</code> <code>Inno Setup</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🤖</td>
-<td>
-<strong>MaineCoon</strong> · <a href="https://github.com/xAngryBadger/minepal">código</a><br/>
-Bot de Minecraft com comandos em linguagem natural via LLM (NVIDIA NIM API) — minerar, craftar, seguir, navegar, interagir pelo chat. Módulo de reinforcement learning para comportamento autônomo.<br/>
-<code>Node.js</code> <code>mineflayer</code> <code>NVIDIA NIM API</code> <code>Reinforcement Learning</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦫</td>
-<td>
-<strong>Capivara</strong> · <a href="https://xangrybadger.github.io/capivara/">demo</a> · <a href="https://github.com/xAngryBadger/capivara">código</a><br/>
-Suíte PDF completa estilo iLovePDF — 15 ferramentas (DOCX→PDF, PDF→DOCX, compressão, merge, split, rotação, marca d'água, numeração, cabeçalho/rodapé, proteção, desbloqueio, OCR, PDF→imagens, PDF/A). Backend FastAPI com StreamingResponse + cloudflared para túnel serverless gratuito via Google Colab.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>pypdf</code> <code>PyMuPDF</code> <code>cloudflared</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">👁️</td>
-<td>
-<strong>Tarsier</strong> · <a href="https://xangrybadger.github.io/tarsier/">demo</a> · <a href="https://github.com/xAngryBadger/tarsier">código</a><br/>
-Editor JSON visual com árvore interativa (ReactFlow), diff/patch, validação de schema, geração de TypeScript types. 100% client-side — zero backend, zero dados saem do navegador.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>CodeMirror 6</code> <code>ReactFlow</code> <code>Tailwind CSS v4</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦜</td>
-<td>
-<strong>Kakapo</strong> · <a href="https://xangrybadger.github.io/kakapo/">demo</a> · <a href="https://github.com/xAngryBadger/kakapo">código</a><br/>
-Editor de imagens completo no navegador — filtros, ajustes, crop, resize, draw. Motor de edição commit-based (cada operação gera snapshot, undo/redo navega pelo histórico). Canvas API nativo, 100% client-side.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>Canvas API</code> <code>Tailwind CSS v4</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦉</td>
-<td>
-<strong>Oilbird</strong> · <a href="https://xangrybadger.github.io/oilbird/">demo</a> · <a href="https://github.com/xAngryBadger/oilbird">código</a><br/>
-Conversor Markdown → PDF com preview em tempo real e temas customizáveis. Backend WeasyPrint para renderização PDF profissional (CSS Paged Media, headers/footers, page breaks). Cloudflared via Google Colab.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>WeasyPrint</code> <code>cloudflared</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦢</td>
-<td>
-<strong>Cegonha</strong> · <a href="https://xangrybadger.github.io/cegonha/">demo</a> · <a href="https://github.com/xAngryBadger/cegonha">código</a><br/>
-Gerador de currículo com templates editáveis, preview em tempo real, drag-reorder de seções e exportação PDF limpa — sem watermark, sem limite. Paleta sage green com tipografia editorial.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>Tailwind CSS v4</code> <code>PDF client-side</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🐋</td>
-<td>
-<strong>Orca</strong> · <a href="https://github.com/xAngryBadger/srf-system">código</a><br/>
-Motor de planejamento operacional para restauração florestal em larga escala — gera dossiês executivos, cronogramas, gerencia tarifas/equipes/territórios. Interface NiceGUI + Rich CLI. Anteriormente SRF System.<br/>
-<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
-</td>
-</tr>
-</table>
+| | Projeto | Descrição | Stack |
+|---|---|---|---|
+| 🦅 | [**HarpIA**](https://github.com/xAngryBadger/harpia) | Motor de automação criativa com 7+ modelos de IA — pipeline agentic autônomo (GPT-4.1 tool calling, copywriting, imagens, vídeo) | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Cosmos DB` |
+| 📱 | [**Flora Sensus**](https://github.com/xAngryBadger/flora-sensus) | App offline-first de inventário florestal com motor de sync custom — conflitos, UUID remapping, rollback atômico. ~24K LOC | `Flutter` `Drift/SQLite` `React` `PocketBase` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/forestai) | Detecção de espécies florestais com Deep Learning — construído do zero sem IA-assisted coding | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
+| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ OAuth integrations, instalador Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
+| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Suíte PDF completa — 15 ferramentas (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` `cloudflared` |
+| 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) · [src](https://github.com/xAngryBadger/tarsier) | Workbench JSON 100% client-side — árvore colapsável, transformações, stats. Zero backend | `React 19` `TypeScript` `Vite` `Tailwind CSS v4` |
+| 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, crop, resize, rotação, text overlay. Motor commit-based com undo/redo | `React 19` `Canvas API` `TypeScript` `Tailwind CSS v4` |
+| 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Conversor Markdown → PDF com preview live e WeasyPrint profissional (CSS Paged Media) | `React 19` `FastAPI` `WeasyPrint` `cloudflared` |
+| 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Gerador de currículo com formulários estruturados e exportação PDF server-side (FastAPI + reportlab) | `React 19` `TypeScript` `FastAPI` `reportlab` |
+| 🐋 | [**Orca**](https://github.com/xAngryBadger/srf-system) | Motor de planejamento para restauração florestal — dossiês executivos, cronogramas, tarifas | `Python` `pandas` `NiceGUI` `Rich CLI` |
+| 🤖 | [**MaineCoon**](https://github.com/xAngryBadger/minepal) | Bot Minecraft com comandos em linguagem natural via LLM — módulo de reinforcement learning | `Node.js` `mineflayer` `NVIDIA NIM API` |
 
----
+<details>
+<summary><b>🇺🇸 English descriptions</b></summary>
 
-### Selected Engineering Projects
+| | Project | Description | Stack |
+|---|---|---|---|
+| 🦅 | [**HarpIA**](https://github.com/xAngryBadger/harpia) | Creative automation engine with 7+ AI models — autonomous agentic pipeline (GPT-4.1 tool calling, copywriting, images, video) | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Cosmos DB` |
+| 📱 | [**Flora Sensus**](https://github.com/xAngryBadger/flora-sensus) | Offline-first forest inventory app with custom sync engine — conflicts, UUID remapping, atomic rollback. ~24K LOC | `Flutter` `Drift/SQLite` `React` `PocketBase` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/forestai) | Forest species detection with Deep Learning — built from scratch without AI-assisted coding | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
+| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Local AI assistant for Excel — ReAct agent (Ollama), 6+ OAuth integrations, Windows installer | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
+| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Full PDF suite — 15 tools (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` `cloudflared` |
+| 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) · [src](https://github.com/xAngryBadger/tarsier) | 100% client-side JSON workbench — collapsible tree, transformations, stats. Zero backend | `React 19` `TypeScript` `Vite` `Tailwind CSS v4` |
+| 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Browser image editor — filters, crop, resize, rotation, text overlay. Commit-based engine with undo/redo | `React 19` `Canvas API` `TypeScript` `Tailwind CSS v4` |
+| 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Markdown → PDF converter with live preview and professional WeasyPrint rendering (CSS Paged Media) | `React 19` `FastAPI` `WeasyPrint` `cloudflared` |
+| 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Resume generator with structured forms and server-side PDF export (FastAPI + reportlab) | `React 19` `TypeScript` `FastAPI` `reportlab` |
+| 🐋 | [**Orca**](https://github.com/xAngryBadger/srf-system) | Planning engine for forest restoration — executive dossiers, schedules, tariffs | `Python` `pandas` `NiceGUI` `Rich CLI` |
+| 🤖 | [**MaineCoon**](https://github.com/xAngryBadger/minepal) | Minecraft bot with natural language commands via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
 
-<table width="100%">
-<tr>
-<td width="8%" align="center">🦅</td>
-<td>
-<strong>HarpIA</strong> · <a href="https://github.com/xAngryBadger/harpia">source</a><br/>
-Creative automation engine with 7+ AI models — GPT-4.1 agent with tool calling, autonomous agentic pipeline (copywriting, image search, design compositing, video generation). Stack leve por padrão (SQLite + local PIL), com fallback para APIs pagas quando necessário.<br/>
-<code>Python</code> <code>GPT-4.1</code> <code>DALL-E 3</code> <code>Flux 2.0 Pro</code> <code>Sora</code> <code>Veo 3.1</code> <code>Azure Cosmos DB</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">📱</td>
-<td>
-<strong>Flora Sensus</strong> · <a href="https://github.com/xAngryBadger/flora-sensus">source</a><br/>
-Offline-first forest inventory app with full sync engine — conflict detection, atomic rollback, UUID remapping for client-server reconciliation. React admin panel with XLSX/PDF/CSV export. ~24K LOC — arquitetura e lógica de sync construídas do zero; código gerado com apoio de LLM (web) e revisado manualmente.<br/>
-<code>Flutter</code> <code>Dart</code> <code>Drift/SQLite</code> <code>React</code> <code>PocketBase</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🌿</td>
-<td>
-<strong>ForestAI</strong> · <a href="https://github.com/xAngryBadger/forestai">source</a><br/>
-Forest species detection and classification with Deep Learning — full pipeline: DeepForest training, stratified splits, bounding box validation. Ongoing research project.<br/>
-<code>PyTorch</code> <code>DeepForest</code> <code>OpenCV</code> <code>scikit-learn</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦊</td>
-<td>
-<strong>Fennec Excel</strong> · <a href="https://github.com/xAngryBadger/Sahara-Fenneck">source</a><br/>
-Desktop app connecting Excel to a local AI agent (Ollama) — ReAct reasoning loop, 6+ OAuth integrations (Gmail, Teams, Calendar, Drive, Outlook, Trello), auto-checkpoint, native Windows installer.<br/>
-<code>Python</code> <code>Ollama</code> <code>CustomTkinter</code> <code>xlwings/COM</code> <code>Inno Setup</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🤖</td>
-<td>
-<strong>MaineCoon</strong> · <a href="https://github.com/xAngryBadger/minepal">source</a><br/>
-Minecraft bot with natural language commands via LLM (NVIDIA NIM API) — mine, craft, follow, navigate, interact through chat. Reinforcement learning module for autonomous behavior.<br/>
-<code>Node.js</code> <code>mineflayer</code> <code>NVIDIA NIM API</code> <code>Reinforcement Learning</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦫</td>
-<td>
-<strong>Capivara</strong> · <a href="https://xangrybadger.github.io/capivara/">demo</a> · <a href="https://github.com/xAngryBadger/capivara">source</a><br/>
-Full PDF suite à la iLovePDF — 15 tools (DOCX→PDF, PDF→DOCX, compress, merge, split, rotate, watermark, page numbers, header/footer, protect, unlock, OCR, PDF→images, PDF/A). FastAPI backend with StreamingResponse + cloudflared for free serverless tunneling via Google Colab.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>pypdf</code> <code>PyMuPDF</code> <code>cloudflared</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">👁️</td>
-<td>
-<strong>Tarsier</strong> · <a href="https://xangrybadger.github.io/tarsier/">demo</a> · <a href="https://github.com/xAngryBadger/tarsier">source</a><br/>
-Visual JSON editor with interactive tree (ReactFlow), diff/patch, schema validation, TypeScript type generation. 100% client-side — zero backend, zero data leaves the browser.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>CodeMirror 6</code> <code>ReactFlow</code> <code>Tailwind CSS v4</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦜</td>
-<td>
-<strong>Kakapo</strong> · <a href="https://xangrybadger.github.io/kakapo/">demo</a> · <a href="https://github.com/xAngryBadger/kakapo">source</a><br/>
-Full-featured browser image editor — filters, adjustments, crop, resize, draw. Commit-based editing engine (each operation generates a snapshot, undo/redo navigates history). Native Canvas API, 100% client-side.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>Canvas API</code> <code>Tailwind CSS v4</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦉</td>
-<td>
-<strong>Oilbird</strong> · <a href="https://xangrybadger.github.io/oilbird/">demo</a> · <a href="https://github.com/xAngryBadger/oilbird">source</a><br/>
-Markdown → PDF converter with real-time preview and customizable themes. WeasyPrint backend for professional PDF rendering (CSS Paged Media, headers/footers, page breaks). Cloudflared via Google Colab.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>FastAPI</code> <code>WeasyPrint</code> <code>cloudflared</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🦢</td>
-<td>
-<strong>Cegonha</strong> · <a href="https://xangrybadger.github.io/cegonha/">demo</a> · <a href="https://github.com/xAngryBadger/cegonha">source</a><br/>
-Resume generator with editable templates, real-time preview, drag-reorder sections and clean PDF export — no watermark, no limits. Sage green palette with editorial typography.<br/>
-<code>React 19</code> <code>TypeScript</code> <code>Tailwind CSS v4</code> <code>Client-side PDF</code>
-</td>
-</tr>
-<tr>
-<td width="8%" align="center">🐋</td>
-<td>
-<strong>Orca</strong> · <a href="https://github.com/xAngryBadger/srf-system">source</a><br/>
-Operational planning engine for large-scale forest restoration — generates executive dossiers, activity schedules, manages tariffs/crews/territories. NiceGUI + Rich CLI interface. Formerly SRF System.<br/>
-<code>Python</code> <code>pandas</code> <code>NiceGUI</code> <code>Rich</code> <code>openpyxl</code>
-</td>
-</tr>
-</table>
+</details>
 
 ---
 
@@ -305,121 +154,100 @@ Operational planning engine for large-scale forest restoration — generates exe
 
 <details>
 <summary><b>Migração Azure Cosmos DB — Meritage Homes</b></summary>
-<br/>
 
-O que começou como scripts baseados em cookies para extrair datasets do Google Drive para a equipe do Luciano Amado (Orlando, FL) revelou arquivos duplicados e inconsistentes — um problema que não podia ser resolvido simplesmente enviando dados para um novo banco. O pipeline tinha que lidar com mais do que migração:
+O que começou como scripts de extração via cookies revelou arquivos duplicados e inconsistentes — um problema que não podia ser resolvido simplesmente enviando dados para um novo banco:
 
-- **Camada de extração via cookies** — scripts automatizados usando cookies de sessão para bypassar controles de acesso do Google Drive, puxando centenas de arquivos em agenda
-- **Compressão + renomeação + injeção em painéis** — datasets comprimidos, renomeados segundo as convenções da Meritage, e injetados em painéis prontos para embedding via agente WhatsApp (com limites rígidos de tamanho)
-- **Resolução cross-platform de MIME types** — Android abria arquivos nativamente, mas iPhone recusava abrir ZIPs inline; a solução foi servir com headers `application/octet-stream` para forçar o Firefox a tratar o download
-- **Docker para reprodutibilidade** — arquivos duplicados entre execuções tornaram testes locais não-confiáveis; containerizei todo o pipeline de extração + validação para que cada execução partisse de um estado conhecido
-- **Camada de validação de schema** — checagens de consistência em Python antes de cada escrita, capturando duplicatas e incompatibilidades de schema que os scripts originais não detectavam
-- **Triggers de rollback automatizado** — em respostas 4xx/5xx da API, o pipeline para e reverte o batch para um checkpoint known-good
-- **Padrão upsert idempotente** — `create_if_missing / replace_if_exists` garante que re-execuções não duplicam nem orfãm registros
+- **Camada de extração via cookies** — scripts automatizados puxando centenas de arquivos do Google Drive em agenda
+- **Compressão + renomeação + injeção em painéis** — datasets prontos para embedding via agente WhatsApp com limites rígidos de tamanho
+- **Resolução cross-platform de MIME types** — Android nativo vs iPhone exigindo `application/octet-stream`
+- **Docker para reprodutibilidade** — cada execução parte de estado conhecido
+- **Validação de schema + rollback automático** — upsert idempotente, re-execuções não duplicam registros
 
 </details>
 
 <details>
 <summary><b>ForestAI — Visão Computacional do Zero</b></summary>
-<br/>
 
-Construído sem IA-assisted coding — Stack Overflow e Thonny IDE apenas. O projeto que iniciou minha curva de aprendizado de iniciante até onde estou agora:
+Construído sem IA-assisted coding — Stack Overflow e Thonny IDE apenas:
 
-- **Anotação manual de dados** — centenas de imagens de drone da Fundação Renova, bounding boxes desenhados à mão para espécies florestais. Trabalho duro, mas me ensinou o que o modelo realmente vê
-- **YOLO + DeepForest** — experimentei múltiplas arquiteturas de detecção; o backbone RetinaNet do DeepForest deu os melhores resultados para imagens de dossel aéreo
-- **Treinamento em GPU local** — PyTorch em hardware de consumo, splits estratificadas train/val para prevenir overfitting em trajetos de voo similares
-- **Interpretação no TensorBoard** — aprendi a ler curvas de loss, tradeoffs precision-recall, e detectar quando o modelo estava memorizando vs. generalizando
-- **O jeito difícil foi o ponto** — métodos trabalhosos, sem copilot, construindo intuição quebrando coisas. Essa base fez cada framework subsequente clicar mais rápido
-
-</details>
-
-<details>
-<summary><b>Flora Sensus — Arquitetura do Motor de Sync Offline</b></summary>
-<br/>
-
-Resolvi o problema de "sem sinal" no trabalho de campo florestal com um motor de sync custom:
-
-- **Detecção de conflitos** — timestamps do servidor vs. locais com política last-write-wins e fallback de resolução manual
-- **Remapping de UUIDs** — UUIDs gerados pelo cliente são reconciliados com IDs do servidor no sync, em cascata pela cadeia completa de FKs (Propriedade → UT → Parcela → Planta → Foto)
-- **Rollback atômico** — se qualquer parte de um sync multi-tabela falhar, o batch inteiro reverte via transação Drift
-- **Backoff exponencial com jitter** — previne thundering herd quando múltiplos dispositivos de campo reconectam simultaneamente
-- **Wrapper de retry de auth** — refresh transparente de token em 401s, com bypass ngrok para desenvolvimento
+- **Anotação manual** — centenas de imagens de drone, bounding boxes desenhados à mão
+- **YOLO + DeepForest** — RetinaNet backbone para imagens de dossel aéreo
+- **GPU local + splits estratificadas** — prevenir overfitting em trajetos de voo similares
+- **TensorBoard** — ler curvas de loss, detectar memorização vs generalização
+- **O jeito difícil foi o ponto** — construiu a intuição que fez cada framework subsequente clicar mais rápido
 
 </details>
 
 <details>
-<summary><b>HarpIA — Design de Pipeline Agentic</b></summary>
-<br/>
+<summary><b>Flora Sensus — Motor de Sync Offline</b></summary>
 
-7+ modelos de IA acessíveis por interface unificada, orquestrados por um agente GPT-4.1:
+Resolvi o problema de "sem sinal" no trabalho de campo:
 
-- **Tool calling com enforcement de schema** — o agente seleciona de um schema definido (geração de imagem, copywriting, seleção de template, busca Pexels) e o pipeline valida cada chamada contra o schema antes da execução
-- **Loop de raciocínio multi-iteração** — até 10 iterações de pensar → chamar → observar antes de retornar resultado final
-- **Stack leve por padrão** — quando nenhuma API paga é necessária, um compositor PIL renderiza designs localmente com 8 templates de layout, cores de marca, e overlays de badge usando SQLite para persistência de estado; fallback para APIs pagas quando necessário
-- **Cron-ready** — file-locking previne execuções concorrentes; recuperação de batch travado lida com processos órfãos automaticamente
-- **Swap de backend** — SQLite local para desenvolvimento, Azure Cosmos DB + Blob Storage para produção, alternado via config de ambiente
+- **Detecção de conflitos** — last-write-wins + fallback de resolução manual
+- **Remapping de UUIDs** — cascata pela FK chain completa (Propriedade → UT → Parcela → Planta → Foto)
+- **Rollback atômico** — batch inteiro reverte via transação Drift
+- **Backoff exponencial com jitter** — previne thundering herd em reconexões simultâneas
 
 </details>
 
----
+<details>
+<summary><b>HarpIA — Pipeline Agentic</b></summary>
 
-### Technical Spotlights
+7+ modelos de IA, agente GPT-4.1 orquestra tudo:
+
+- **Tool calling com schema enforcement** — resposta fora do formato = rejeição automática
+- **Loop multi-iteração** — até 10 iterações de think → call → observe
+- **Stack leve por padrão** — SQLite + PIL local, fallback para APIs pagas
+- **Cron-ready** — file-locking + recovery de batches órfãos
+- **Backend swap** — SQLite ↔ Azure Cosmos DB via env var
+
+</details>
+
+<details>
+<summary><b>🇺🇸 English — Technical Spotlights</b></summary>
 
 <details>
 <summary><b>Azure Cosmos DB Migration — Meritage Homes</b></summary>
-<br/>
 
-What started as cookie-based scripts to extract datasets from Google Drive for Luciano Amado's team (Orlando, FL) revealed duplicated and inconsistent files — a problem that couldn't be solved by simply pushing data to a new database. The pipeline had to handle more than just migration:
-
-- **Cookie-based extraction layer** — automated scripts using session cookies to bypass Google Drive access controls, pulling hundreds of files on schedule
-- **File compression + renaming + panel injection** — datasets had to be compressed, renamed according to Meritage's naming conventions, and injected into presentation panels ready for WhatsApp agent embedding (which imposed strict file size limits)
-- **Cross-platform MIME type resolution** — Android devices displayed files natively, but iPhone refused to open ZIPs inline; the fix was serving them with `application/octet-stream` headers to force Firefox to handle the download
-- **Docker for reproducibility** — duplicated files across runs made local testing unreliable; containerized the entire extraction + validation pipeline so every run starts from a known state
-- **Schema validation layer** — Python-based consistency checks before every write, catching the duplicates and schema mismatches that the original scripts missed
-- **Automated rollback triggers** — on 4xx/5xx API responses, the pipeline halts and reverts the batch to a known-good checkpoint
-- **Idempotent upsert pattern** — `create_if_missing / replace_if_exists` ensures re-runs don't duplicate or orphan records
+- **Cookie-based extraction** — automated scripts pulling hundreds of files from Google Drive on schedule
+- **Compression + renaming + panel injection** — datasets ready for WhatsApp agent embedding with strict file size limits
+- **Cross-platform MIME type resolution** — Android native vs iPhone requiring `application/octet-stream`
+- **Docker for reproducibility** — every run starts from known state
+- **Schema validation + automated rollback** — idempotent upsert, re-runs don't duplicate records
 
 </details>
 
 <details>
 <summary><b>ForestAI — Computer Vision from Scratch</b></summary>
-<br/>
 
-Built without AI-assisted coding — Stack Overflow and Thonny IDE only. The project that started my learning curve from newbie to where I am now:
-
-- **Manual data annotation** — hundreds of drone images from Fundação Renova, hand-labeled bounding boxes for forest species. Hard labor, but it taught me what the model actually sees
-- **YOLO + DeepForest** — experimented with multiple detection architectures; DeepForest's RetinaNet backbone gave the best results for overhead canopy imagery
-- **Local GPU training** — PyTorch on consumer hardware, stratified train/val splits to prevent overfitting on similar flight paths
-- **TensorBoard interpretation** — learned to read loss curves, precision-recall tradeoffs, and detect when the model was memorizing vs. generalizing
-- **The hard way was the point** — convoluted methods, no copilot, building intuition by breaking things. This foundation made every subsequent framework click faster
+- **Manual annotation** — hundreds of drone images, hand-labeled bounding boxes
+- **YOLO + DeepForest** — RetinaNet backbone for overhead canopy imagery
+- **Local GPU + stratified splits** — prevent overfitting on similar flight paths
+- **TensorBoard** — reading loss curves, detecting memorization vs generalization
+- **The hard way was the point** — built the intuition that made every subsequent framework click faster
 
 </details>
 
 <details>
-<summary><b>Flora Sensus — Offline Sync Engine Architecture</b></summary>
-<br/>
+<summary><b>Flora Sensus — Offline Sync Engine</b></summary>
 
-Solved the "no-signal" problem in forestry field work with a custom sync engine:
-
-- **Conflict detection** — server timestamps vs. local timestamps with last-write-wins policy and manual resolution fallback
-- **UUID remapping** — client-generated UUIDs are reconciled with server-assigned IDs on sync, cascading through the full FK chain (Propriedade → UT → Parcela → Planta → Foto)
-- **Atomic rollback** — if any part of a multi-table sync fails, the entire batch reverts via Drift transaction wrapping
-- **Exponential backoff with jitter** — prevents thundering herd when multiple field devices reconnect simultaneously
-- **Auth retry wrapper** — transparent token refresh on 401s, with ngrok bypass for development
+- **Conflict detection** — last-write-wins + manual resolution fallback
+- **UUID remapping** — cascading through full FK chain (Propriedade → UT → Parcela → Planta → Foto)
+- **Atomic rollback** — entire batch reverts via Drift transaction
+- **Exponential backoff with jitter** — prevents thundering herd on simultaneous reconnections
 
 </details>
 
 <details>
-<summary><b>HarpIA — Agentic Pipeline Design</b></summary>
-<br/>
+<summary><b>HarpIA — Agentic Pipeline</b></summary>
 
-7+ AI models accessible through a unified interface, orchestrated by a GPT-4.1 agent:
+- **Tool calling with schema enforcement** — out-of-format response = auto-rejection
+- **Multi-iteration loop** — up to 10 think → call → observe iterations
+- **Lightweight stack by default** — SQLite + local PIL, fallback to paid APIs
+- **Cron-ready** — file-locking + stuck batch recovery
+- **Backend swap** — SQLite ↔ Azure Cosmos DB via env var
 
-- **Tool calling with schema enforcement** — the agent selects from a defined tool schema (image generation, copy writing, template selection, Pexels search) and the pipeline validates each tool call against the schema before execution
-- **Multi-iteration reasoning loop** — up to 10 iterations of think → call → observe before returning a final result
-- **Lightweight stack by default** — when no paid API is needed, a PIL compositor renders designs locally with 8 layout templates, brand colors, and badge overlays using SQLite for state persistence; falls back to paid APIs when necessary
-- **Cron-ready** — file-locking prevents concurrent runs; stuck batch recovery handles orphaned processes automatically
-- **Backend swap** — local SQLite for development, Azure Cosmos DB + Blob Storage for production, toggled via environment config
+</details>
 
 </details>
 
@@ -427,33 +255,34 @@ Solved the "no-signal" problem in forestry field work with a custom sync engine:
 
 ### Educação & Certificações
 
+**Cruzeiro do Sul** · Engenharia de Computação · 2024 — 2029 · *em andamento*
+
+**UFSJ** · Engenharia Química · 2022 — 2024 · *período de pivô*
+
 **UFOP** · Química Industrial · 2022 · *onde Python começou*
 
-**UFSJ** · Engenharia Química · 2022 — 2024 · *período de pivô — longe do código, acompanhando IA de perto*
+**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science · Data Analytics · Networking (120h) · Cybersecurity
 
-**Cruzeiro do Sul** · Engenharia de Computação · 2024 — 2029 · 5º período (em andamento)
+**Gov AI (PBIA)** — IA para Otimização de Processos · 71h · Enap/Serpro
 
-**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Intro to Cybersecurity
+**KUMON** — Inglês fluente · 3 anos
 
-**Programa Gov AI (PBIA)** — IA para Otimização de Processos & Tomada de Decisão · 71h · Enap/Serpro
+<details>
+<summary><b>🇺🇸 English version</b></summary>
 
-**KUMON** — Fluência em inglês · 3 anos · habilita documentação técnica e reuniões com equipes internacionais
+**Cruzeiro do Sul** · Computer Engineering · 2024 — 2029 · *in progress*
 
----
-
-### Education & Certifications
+**UFSJ** · Chemical Engineering · 2022 — 2024 · *pivot period*
 
 **UFOP** · Industrial Chemistry · 2022 · *where Python began*
 
-**UFSJ** · Chemical Engineering · 2022 — 2024 · *pivot period — away from code, watching AI closely*
+**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science · Data Analytics · Networking (120h) · Cybersecurity
 
-**Cruzeiro do Sul** · Computer Engineering · 2024 — 2029 · 5th semester (in progress)
+**Gov AI (PBIA)** — AI for Process Optimization · 71h · Enap/Serpro
 
-**Cisco Networking Academy** — Python Essentials 1 & 2 · Data Science Essentials · Data Analytics Essentials · Networking Basics (120h) · Intro to Cybersecurity
+**KUMON** — Fluent English · 3 years
 
-**Gov AI Program (PBIA)** — AI for Process Optimization & Decision-Making · 71h · Enap/Serpro
-
-**KUMON** — English fluency · 3 years · enables technical documentation and meetings with international teams
+</details>
 
 ---
 
