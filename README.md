@@ -40,9 +40,9 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_CachyOS- FCC624?style=flat-square&logo=linux&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux_CachyOS-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![GPT--4.1](https://img.shields.io/badge/GPT--4.1-412991?style=flat-square&logo=openai&logoColor=white)
+![GPT-4.1](https://img.shields.io/badge/GPT--4.1-412991?style=flat-square&logo=openai&logoColor=white)
 
 <details>
 <summary><b>Stack completo</b></summary>
@@ -118,7 +118,7 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 | | Projeto | Descrição | Stack |
 |---|---|---|---|
 | 🦅 | [**HarpIA**](https://github.com/xAngryBadger/harpia) | Motor de automação criativa com 7+ modelos de IA — pipeline agentic autônomo (GPT-4.1 tool calling, copywriting, imagens, vídeo) | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Cosmos DB` |
-| 📱 | [**Flora Sensus**](https://github.com/xAngryBadger/flora-sensus) | App offline-first de inventário florestal com motor de sync custom — conflitos, UUID remapping, rollback atômico. ~24K LOC | `Flutter` `Drift/SQLite` `React` `PocketBase` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/flora-sensus) | App offline-first de inventário florestal com motor de sync custom — conflitos, UUID remapping, rollback atômico. ~24K LOC | `Flutter` `Drift/SQLite` `React` `PocketBase` |
 | 🌿 | [**ForestAI**](https://github.com/xAngryBadger/forestai) | Detecção de espécies florestais com Deep Learning — construído do zero sem IA-assisted coding | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
 | 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ OAuth integrations, instalador Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
 | 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Suíte PDF completa — 15 ferramentas (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` `cloudflared` |
@@ -135,7 +135,7 @@ My first Python contact was in 2022 at UFOP (Industrial Chemistry) — Thonny ID
 | | Project | Description | Stack |
 |---|---|---|---|
 | 🦅 | [**HarpIA**](https://github.com/xAngryBadger/harpia) | Creative automation engine with 7+ AI models — autonomous agentic pipeline (GPT-4.1 tool calling, copywriting, images, video) | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Cosmos DB` |
-| 📱 | [**Flora Sensus**](https://github.com/xAngryBadger/flora-sensus) | Offline-first forest inventory app with custom sync engine — conflicts, UUID remapping, atomic rollback. ~24K LOC | `Flutter` `Drift/SQLite` `React` `PocketBase` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/flora-sensus) | Offline-first forest inventory app with custom sync engine — conflicts, UUID remapping, atomic rollback. ~24K LOC | `Flutter` `Drift/SQLite` `React` `PocketBase` |
 | 🌿 | [**ForestAI**](https://github.com/xAngryBadger/forestai) | Forest species detection with Deep Learning — built from scratch without AI-assisted coding | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
 | 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Local AI assistant for Excel — ReAct agent (Ollama), 6+ OAuth integrations, Windows installer | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
 | 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Full PDF suite — 15 tools (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` `cloudflared` |
@@ -179,7 +179,7 @@ Construído sem IA-assisted coding — Stack Overflow e Thonny IDE apenas:
 </details>
 
 <details>
-<summary><b>Flora Sensus — Motor de Sync Offline</b></summary>
+<summary><b>Urutau — Motor de Sync Offline</b></summary>
 
 Resolvi o problema de "sem sinal" no trabalho de campo:
 
@@ -229,7 +229,7 @@ Resolvi o problema de "sem sinal" no trabalho de campo:
 </details>
 
 <details>
-<summary><b>Flora Sensus — Offline Sync Engine</b></summary>
+<summary><b>Urutau — Offline Sync Engine</b></summary>
 
 - **Conflict detection** — last-write-wins + manual resolution fallback
 - **UUID remapping** — cascading through full FK chain (Propriedade → UT → Parcela → Planta → Foto)
