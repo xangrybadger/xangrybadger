@@ -6,6 +6,7 @@
 **Full-Stack AI Engineer · Computer Engineering · Cloud Architecture**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-xAngryBadger-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
+[![Personal](https://img.shields.io/badge/Personal-nathan-8B6914?style=flat-square)](https://xangrybadger.github.io/nathan/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaac%20Nathan-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
 [![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D4A017?style=flat-square&logo=gmail)](mailto:isaacnathandasilva@gmail.com)
 
