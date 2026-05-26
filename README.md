@@ -99,9 +99,9 @@
 
 | | Projeto | A tese / The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Motor de automação criativa com 9+ modelos de IA — LLM-orchestrated pipeline com 9+ modelos de IA (copywriting, imagens, vídeo). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem IA-assisted coding**, com anotação manual de imagens de drone. O jeito difícil foi o ponto. | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
-| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Custom sync service — conflict detection, UUID remapping, transactional rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | LLM-orchestrated pipeline com 9+ modelos de IA (copywriting, imagens, vídeo). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem IA-assisted coding**, com anotação manual de imagens de drone. mAP 0.09 — data quality > model architecture. | `DeepForest` `PyTorch` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Custom sync service — conflict detection, UUID remapping, sync recovery with rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
 | 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Motor de planejamento para restauração florestal. Gera dossiês executivos, cronogramas, tarifas. Python puro, lógica de negócio complexa. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
 
 <details>
@@ -109,9 +109,9 @@
 
 | | Project | The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Creative automation engine with 9+ AI models — LLM-orchestrated pipeline with 9+ AI models (copywriting, images, video). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Forest species detection with Deep Learning — built **from scratch without AI assistance**, with manual annotation of drone imagery. The hard way was the point. | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
-| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | Offline-first forest inventory app. Custom sync with conflict detection, UUID remapping, transactional rollback. Built because the "real world" doesn't ask for permission before losing signal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | LLM-orchestrated pipeline with 9+ AI models (copywriting, images, video). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Forest species detection with Deep Learning — built **from scratch without AI assistance**, with manual annotation of drone imagery. mAP 0.09 — data quality > model architecture. | `DeepForest` `PyTorch` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | Offline-first forest inventory app. Custom sync with conflict detection, UUID remapping, sync recovery with rollback. Built because the "real world" doesn't ask for permission before losing signal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
 | 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Planning engine for forest restoration. Generates executive dossiers, schedules, tariffs. Pure Python, complex business logic. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
 
 </details>
@@ -126,7 +126,9 @@
 | 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
 | 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Markdown → PDF com preview live e WeasyPrint profissional | `React 19` `FastAPI` `WeasyPrint` |
 | 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Gerador de currículo com formulários estruturados e exportação PDF server-side | `React 19` `FastAPI` `reportlab` |
-| 🤖 | **MaineCoon** | Bot Minecraft com comandos em linguagem natural via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
+| 🤖 | **MaineCoon** | Fork do [MinePal](https://github.com/Anorak001/MinePal) com comandos em linguagem natural via LLM | `Node.js` `mineflayer` `NVIDIA NIM API` |
+| 🫏 | [**Quokka**](https://github.com/xAngryBadger/quokka-trainee-cloud) | API Flask com pipeline CI/CD completo — Docker, Terraform, AWS ECS | `Python` `Flask` `Docker` `Terraform` `AWS` |
+| 🐜 | ~~**Anta**~~ | *Arquivado — mergeado no Capivara como ferramenta Compress PDF* | `React 19` `FastAPI` `pypdf` |
 
 <details>
 <summary><b>🇺🇸 English — Tools & Utilities</b></summary>
@@ -134,12 +136,39 @@
 | | Project | Description | Stack |
 |---|---|---|---|
 | 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Local AI assistant for Excel — ReAct agent (Ollama), 6+ OAuth, Windows installer | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
-| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) | Full PDF suite — 15 tools (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` |
+| 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) | Full PDF suite — 15 tools (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` |
 | 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) | 100% client-side JSON workbench — collapsible tree, transformations, stats | `React 19` `TypeScript` `Vite` |
 | 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) | Browser image editor — filters, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
 | 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) | Markdown → PDF converter with live preview and professional WeasyPrint rendering | `React 19` `FastAPI` `WeasyPrint` |
 | 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) | Resume generator with structured forms and server-side PDF export | `React 19` `FastAPI` `reportlab` |
-| 🤖 | **MaineCoon** | Minecraft bot with natural language commands via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
+| 🤖 | **MaineCoon** | Fork of [MinePal](https://github.com/Anorak001/MinePal) with natural language commands via LLM | `Node.js` `mineflayer` `NVIDIA NIM API` |
+| 🫏 | [**Quokka**](https://github.com/xAngryBadger/quokka-trainee-cloud) | Flask API with full CI/CD pipeline — Docker, Terraform, AWS ECS | `Python` `Flask` `Docker` `Terraform` `AWS` |
+| 🐜 | ~~**Anta**~~ | *Archived — merged into Capivara as the Compress PDF tool* | `React 19` `FastAPI` `pypdf` |
+
+</details>
+
+#### 🏛️ Infraestrutura & Internos / Infrastructure & Internal
+
+| | Projeto | Descrição | Stack |
+|---|---|---|---|
+| 🦡 | **Badger RAG** | Base de conhecimento auto-atualizável do codebase — MCP server, ChromaDB, watcher Rust | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
+| 🎨 | **Design Catalog** | Catálogo de padrões de design premium — 23 tokens, 23 patterns, 22 snippets | `Markdown` `JSON` `CSS/JS` |
+| 🌲 | **Inovesa** | Site institucional premium — Inovesa Florestal e Ambiental | `React 19` `Vite 6` `Tailwind v4` `Motion` `Lenis` |
+| 💰 | **FinanceTracker** | App de finanças pessoais — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
+| 📄 | **Isaac Vitae** | Portfólio/currículo pessoal — site premium com GSAP e animações | `React 19` `Vite` `GSAP` `Lenis` `Motion` |
+| 👤 | **Nathan** | Site pessoal | `React` `Vite` |
+
+<details>
+<summary><b>🇺🇸 English — Infrastructure & Internal</b></summary>
+
+| | Project | Description | Stack |
+|---|---|---|---|
+| 🦡 | **Badger RAG** | Self-updating codebase knowledge base — MCP server, ChromaDB, Rust watcher | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
+| 🎨 | **Design Catalog** | Premium design pattern catalog — 23 tokens, 23 patterns, 22 snippets | `Markdown` `JSON` `CSS/JS` |
+| 🌲 | **Inovesa** | Premium institutional site — Inovesa Florestal e Ambiental | `React 19` `Vite 6` `Tailwind v4` `Motion` `Lenis` |
+| 💰 | **FinanceTracker** | Personal finance app — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
+| 📄 | **Isaac Vitae** | Personal portfolio/resume — premium site with GSAP and animations | `React 19` `Vite` `GSAP` `Lenis` `Motion` |
+| 👤 | **Nathan** | Personal site | `React` `Vite` |
 
 </details>
 
