@@ -99,20 +99,20 @@
 
 | | Projeto | A tese / The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | **HarpIA** | Motor de automação criativa com 9+ modelos de IA — LLM-orchestrated pipeline com 9+ modelos de IA (copywriting, imagens, vídeo). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | **ForestAI** | Detecção de espécies florestais com Deep Learning — construído **do zero, sem IA-assisted coding**, com anotação manual de imagens de drone. O jeito difícil foi o ponto. | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
-| 📱 | **Urutau** | App offline-first de inventário florestal. Custom sync service — conflict detection, UUID remapping, transactional rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
-| 🏗️ | **Orca** | Motor de planejamento para restauração florestal. Gera dossiês executivos, cronogramas, tarifas. Python puro, lógica de negócio complexa. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Motor de automação criativa com 9+ modelos de IA — LLM-orchestrated pipeline com 9+ modelos de IA (copywriting, imagens, vídeo). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem IA-assisted coding**, com anotação manual de imagens de drone. O jeito difícil foi o ponto. | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Custom sync service — conflict detection, UUID remapping, transactional rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
+| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Motor de planejamento para restauração florestal. Gera dossiês executivos, cronogramas, tarifas. Python puro, lógica de negócio complexa. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
 
 <details>
 <summary><b>🇺🇸 English — Featured</b></summary>
 
 | | Project | The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | **HarpIA** | Creative automation engine with 9+ AI models — LLM-orchestrated pipeline with 9+ AI models (copywriting, images, video). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | **ForestAI** | Forest species detection with Deep Learning — built **from scratch without AI assistance**, with manual annotation of drone imagery. The hard way was the point. | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
-| 📱 | **Urutau** | Offline-first forest inventory app. Custom sync with conflict detection, UUID remapping, transactional rollback. Built because the "real world" doesn't ask for permission before losing signal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
-| 🏗️ | **Orca** | Planning engine for forest restoration. Generates executive dossiers, schedules, tariffs. Pure Python, complex business logic. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Creative automation engine with 9+ AI models — LLM-orchestrated pipeline with 9+ AI models (copywriting, images, video). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Forest species detection with Deep Learning — built **from scratch without AI assistance**, with manual annotation of drone imagery. The hard way was the point. | `PyTorch` `DeepForest` `OpenCV` `scikit-learn` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | Offline-first forest inventory app. Custom sync with conflict detection, UUID remapping, transactional rollback. Built because the "real world" doesn't ask for permission before losing signal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
+| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Planning engine for forest restoration. Generates executive dossiers, schedules, tariffs. Pure Python, complex business logic. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
 
 </details>
 
@@ -126,7 +126,7 @@
 | 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
 | 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) · [src](https://github.com/xAngryBadger/oilbird) | Markdown → PDF com preview live e WeasyPrint profissional | `React 19` `FastAPI` `WeasyPrint` |
 | 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) · [src](https://github.com/xAngryBadger/cegonha) | Gerador de currículo com formulários estruturados e exportação PDF server-side | `React 19` `FastAPI` `reportlab` |
-| 🤖 | [**MaineCoon**](https://github.com/xAngryBadger/minepal) | Bot Minecraft com comandos em linguagem natural via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
+| 🤖 | **MaineCoon** | Bot Minecraft com comandos em linguagem natural via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
 
 <details>
 <summary><b>🇺🇸 English — Tools & Utilities</b></summary>
@@ -139,7 +139,7 @@
 | 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) | Browser image editor — filters, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
 | 🦉 | [**Oilbird**](https://xangrybadger.github.io/oilbird/) | Markdown → PDF converter with live preview and professional WeasyPrint rendering | `React 19` `FastAPI` `WeasyPrint` |
 | 🦢 | [**Cegonha**](https://xangrybadger.github.io/cegonha/) | Resume generator with structured forms and server-side PDF export | `React 19` `FastAPI` `reportlab` |
-| 🤖 | [**MaineCoon**](https://github.com/xAngryBadger/minepal) | Minecraft bot with natural language commands via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
+| 🤖 | **MaineCoon** | Minecraft bot with natural language commands via LLM — reinforcement learning module | `Node.js` `mineflayer` `NVIDIA NIM API` |
 
 </details>
 
