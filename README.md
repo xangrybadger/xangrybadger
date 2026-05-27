@@ -3,7 +3,7 @@
 <td width="70%" align="left" valign="top">
 
 # Isaac Nathan
-**Full-Stack Developer · Computer Engineering · Azure · AI · Flutter**
+**Desenvolvedor Full-Stack · Engenharia de Computação · Azure · IA · Flutter**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-xAngryBadger-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
 [![Personal](https://img.shields.io/badge/Personal-nathan-8B6914?style=flat-square)](https://xangrybadger.github.io/nathan/)
@@ -19,9 +19,9 @@
 </tr>
 </table>
 
-**🇧🇷 PT-BR** — Engenheiro de Computação com background em Química. Eu não sigo tutoriais; eu quebro coisas até entender. Construo sistemas que **funcionam sem internet**, que **automatizam geração de conteúdo com IA**, que **migraram meio terabyte de dados legados** para a cloud — e que começaram como anotação manual de imagens de drone, sem IA, pelo jeito mais difícil.
+**🇧🇷 PT-BR** — Engenheiro de Computação com background em Química. Eu não sigo tutoriais; eu quebro coisas até entender. Construo sistemas que **funcionam sem internet**, que **automatizam geração de conteúdo com IA**, que **migraram meio terabyte de dados legados** para a nuvem — e que começaram como anotação manual de imagens de drone, sem IA, do jeito mais difícil.
 
-> *"The hard way builds the strongest foundation — and ForestAI taught me that when the hard way is the only way, the only way out is through."*
+> *"O caminho difícil constrói a base mais sólida — e o ForestAI me ensinou que, quando o caminho difícil é o único, a única saída é seguir em frente."*
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
@@ -70,9 +70,9 @@
 
 **2022–2024** — Engenharia Química na UFSJ. Longe do código, acompanhando IA.
 
-**2024** — Pivotei para Computação. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem IA-assisted. Com anotação manual de imagens de drone, treinei modelos em GPU local, interpretei curvas no TensorBoard.
+**2024** — Pivotei para Computação. Construí o **ForestAI** do zero — Stack Overflow + Thonny, sem assistência de IA. Com anotação manual de imagens de drone, treinei modelos em GPU local, interpretei curvas no TensorBoard.
 
-**2024–2025** — Expansão autônoma: scripts, deployments, serviços.
+**2024–2025** — Expansão autônoma: scripts, deploys, serviços.
 
 **2025** — Um amigo viu o ForestAI. Entrei para a **Paware Softwares**. Migrei 500GB para Azure Cosmos DB, arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
 
@@ -99,10 +99,10 @@
 
 | | Projeto | A tese / The Thesis | Stack |
 |---|---|---|---|
-| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | LLM-orchestrated pipeline com 9+ modelos de IA (copywriting, imagens, vídeo). Birthed from **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
-| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem IA-assisted coding**, com anotação manual de imagens de drone. mAP 0.09 — data quality > model architecture. | `DeepForest` `PyTorch` |
-| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Custom sync service — conflict detection, UUID remapping, sync recovery with rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
-| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Motor de planejamento para restauração florestal. Gera dossiês executivos, cronogramas, tarifas. Python puro, lógica de negócio complexa. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
+| 🤖 | [**HarpIA**](https://github.com/xAngryBadger/harpIA) | Pipeline orquestrado por LLM com 9+ modelos de IA (redação, imagens, vídeo). Nasceu do **HelloSocial**. | `Python` `GPT-4.1` `DALL-E 3` `Flux` `Azure` |
+| 🌿 | [**ForestAI**](https://github.com/xAngryBadger/ForestAi) | Detecção de espécies florestais com Deep Learning — construído **do zero, sem código gerado por IA**, com anotação manual de imagens de drone. mAP 0.09 — data quality > model architecture. | `DeepForest` `PyTorch` |
+| 📱 | [**Urutau**](https://github.com/xAngryBadger/urutau-app) | App offline-first de inventário florestal. Serviço de sincronização customizado — detecção de conflitos, remapeamento de UUID, recuperação de sinc com rollback. Foi construído porque o "mundo real" não pede permissão para ter sinal. | `Flutter` `Dart` `Drift/SQLite` `React` `PocketBase` |
+| 🏗️ | [**Orca**](https://github.com/xAngryBadger/orca) | Motor de planejamento para restauração florestal. Gera dossiês executivos, cronogramas, tarifas. Python puro, regras de negócio complexas. | `Python` `pandas` `FastAPI` `Rich` `openpyxl` |
 
 <details>
 <summary><b>🇺🇸 English — Featured</b></summary>
@@ -120,7 +120,7 @@
 
 | | Projeto | Descrição | Stack |
 |---|---|---|---|
-| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ OAuth, instalador Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
+| 🦊 | [**Fennec Excel**](https://github.com/xAngryBadger/Sahara-Fenneck) | Assistente de IA local para Excel — agente ReAct (Ollama), 6+ integrações OAuth, instalador Windows | `Python` `Ollama` `CustomTkinter` `xlwings/COM` |
 | 🦫 | [**Capivara**](https://xangrybadger.github.io/capivara/) · [src](https://github.com/xAngryBadger/capivara) | Suíte PDF — 15 ferramentas (DOCX→PDF, merge, split, OCR, compress, watermark...) | `React 19` `FastAPI` `pypdf` `PyMuPDF` |
 | 👁️ | [**Tarsier**](https://xangrybadger.github.io/tarsier/) · [src](https://github.com/xAngryBadger/tarsier) | Workbench JSON 100% client-side — árvore colapsável, transformações, stats | `React 19` `TypeScript` `Vite` `Tailwind` |
 | 🦜 | [**Kakapo**](https://xangrybadger.github.io/kakapo/) · [src](https://github.com/xAngryBadger/kakapo) | Editor de imagens no navegador — filtros, crop, resize, text overlay | `React 19` `Canvas API` `TypeScript` |
@@ -151,7 +151,7 @@
 
 | | Projeto | Descrição | Stack |
 |---|---|---|---|
-| 🦡 | **Badger RAG** | Base de conhecimento auto-atualizável do codebase — MCP server, ChromaDB, watcher Rust | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
+| 🦡 | **Badger RAG** | Base de conhecimento autoatualizável do codebase — MCP server, ChromaDB, watcher Rust | `Python 3.12` `FastMCP` `ChromaDB` `Rust` `NVIDIA NIM` |
 | 🎨 | **Design Catalog** | Catálogo de padrões de design premium — 23 tokens, 23 patterns, 22 snippets | `Markdown` `JSON` `CSS/JS` |
 | 🌲 | **Inovesa** | Site institucional premium — Inovesa Florestal e Ambiental | `React 19` `Vite 6` `Tailwind v4` `Motion` `Lenis` |
 | 💰 | **FinanceTracker** | App de finanças pessoais — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
