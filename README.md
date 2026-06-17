@@ -3,12 +3,13 @@
 <td width="70%" align="left" valign="top">
 
 # Isaac Nathan
-**Desenvolvedor Full-Stack · Engenharia de Computação · Cybersecurity · Azure · IA · Flutter**
+**Desenvolvedor Full-Stack · Engenharia de Computação · Cybersecurity · Azure · IA · Flutter · Security Research**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-xAngryBadger-456A4B?style=flat-square)](https://xangrybadger.github.io/isaac-vitae/)
 [![Personal](https://img.shields.io/badge/Personal-nathan-8B6914?style=flat-square)](https://xangrybadger.github.io/nathan/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaac%20Nathan-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
 [![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D4A017?style=flat-square&logo=gmail)](mailto:isaacnathandasilva@gmail.com)
+[![Security](https://img.shields.io/badge/Security-Disclosures-DA3633?style=flat-square)](https://github.com/xAngryBadger/security-disclosures)
 
 </td>
 <td width="30%" align="right" valign="top">
@@ -26,7 +27,7 @@
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
-**🇺🇸 English** — Computer Engineering student with a background in Chemistry. I don't follow tutorials; I break things until I understand them. I build systems that **work offline**, that **automate content generation with AI**, that **migrated half a terabyte of legacy data** to the cloud — and that started as manually annotated drone images, without AI, the hardest way possible.
+**🇺🇸 English** — Computer Engineering student & security researcher with a background in Chemistry. I don't follow tutorials; I break things until I understand them. I build systems that **work offline**, that **automate content generation with AI**, that **migrated half a terabyte of legacy data** to the cloud — and that started as manually annotated drone images, without AI, the hardest way possible.
 
 > *"The hard way builds the strongest foundation — and ForestAI taught me that when the hard way is the only way, the only way out is through."*
 
@@ -48,6 +49,8 @@
 ![Linux](https://img.shields.io/badge/Linux_CachyOS-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![GPT-4.1](https://img.shields.io/badge/GPT--4.1-412991?style=flat-square&logo=openai&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![Shodan](https://img.shields.io/badge/Shodan-F7041B?style=flat-square&logo=shodan&logoColor=white)
 
 <details>
 <summary><b>Stack completo / Full Stack</b></summary>
@@ -59,6 +62,7 @@
 | **Frontend** | React 19 · TypeScript · Flutter · Tailwind CSS v4 · Vite |
 | **Cloud & Infra** | Azure · Docker · Git · PocketBase · Linux (CachyOS/Hyprland) · PyInstaller/Inno Setup |
 | **Integrações** | Mercado Pago PIX · Canva Connect · Placid · Templated.io · Pexels API · NVIDIA NIM |
+| **Segurança** | OSINT · Nmap · Wireshark · Burp Suite · Shodan · SNMP · WordPress audit · LGPD · NIST CSF · OWASP Top 10 · TLP · CERT.br/CTIR |
 
 </details>
 
@@ -76,6 +80,8 @@
 
 **2025** — Um amigo viu o ForestAI. Entrei para a **Paware Softwares**. Migrei 500GB para Azure Cosmos DB, arquitetei **HarpIA** — pipeline orquestrado por LLM para geração de imagens. Construí também **Urutau** (app offline-first) e **Orca** (motor de planejamento).
 
+**2026** — Divulgação responsável: 20+ vulnerabilidades em infraestrutura governamental e setorial brasileira. 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (Base44 auth failure). Três ondas de divulgação (Mar–Jun 2026).
+
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
@@ -88,6 +94,8 @@
 **2024–2025** — Self-taught expansion: system scripts, Windows deployments, IT services.
 
 **2025** — A friend saw ForestAI. Joined **Paware Softwares**. Migrated 500GB to Azure Cosmos DB, architected **HarpIA** — LLM-orchestrated AI pipeline for image generation. Also built **Urutau** (offline-first app) and **Orca** (planning engine).
+
+**2026** — Responsible disclosure: 20+ vulnerabilities in Brazilian government and sectoral infrastructure. 5 confirmed fixes via CERT.br/CTIR Gov. Platform-level systemic analysis (Base44 auth failure). Three disclosure waves (Mar–Jun 2026).
 
 </details>
 
@@ -157,6 +165,7 @@
 | 💰 | **FinanceTracker** | App de finanças pessoais — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
 | 📄 | **Isaac Vitae** | Portfólio/currículo pessoal — site premium com GSAP e animações | `React 19` `Vite` `GSAP` `Lenis` `Motion` |
 | 👤 | **Nathan** | Site pessoal | `React` `Vite` |
+| 🛡️ | **Security Disclosures** | Portfólio de divulgação responsável — 20+ findings, 5 fixados, CERT.br/CTIR Gov | `OSINT` `Nmap` `LGPD` `NIST CSF` |
 
 <details>
 <summary><b>🇺🇸 English — Infrastructure & Internal</b></summary>
@@ -169,6 +178,28 @@
 | 💰 | **FinanceTracker** | Personal finance app — Expo/React Native mobile | `React Native` `Expo 54` `TypeScript` |
 | 📄 | **Isaac Vitae** | Personal portfolio/resume — premium site with GSAP and animations | `React 19` `Vite` `GSAP` `Lenis` `Motion` |
 | 👤 | **Nathan** | Personal site | `React` `Vite` |
+| 🛡️ | **Security Disclosures** | Responsible disclosure portfolio — 20+ findings, 5 fixed, CERT.br/CTIR Gov | `OSINT` `Nmap` `LGPD` `NIST CSF` |
+
+</details>
+
+---
+
+### Segurança & Divulgação Responsável / Security & Responsible Disclosure
+
+#### 🛡️ Segurança & Divulgação Responsável
+
+| | Projeto | A tese / The Thesis | Stack |
+|---|---|---|---|
+| 🛡️ | [**Security Disclosures**](https://github.com/xAngryBadger/security-disclosures) | 20+ vulnerabilidades em infraestrutura governamental brasileira — 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (Base44). Divulgação responsável com zero retenção, notificação multi-canal e verificação pós-fix. | `OSINT` `Nmap` `Burp Suite` `Shodan` `LGPD` `NIST CSF` |
+
+<details>
+<summary><b>🇺🇸 English version</b></summary>
+
+#### 🛡️ Security & Responsible Disclosure
+
+| | Project | The Thesis | Stack |
+|---|---|---|---|
+| 🛡️ | [**Security Disclosures**](https://github.com/xAngryBadger/security-disclosures) | 20+ vulnerabilities in Brazilian government infrastructure — 5 confirmed fixes via CERT.br/CTIR Gov. Platform-level systemic analysis (Base44). Responsible disclosure with zero retention, multi-channel notification, and post-fix verification. | `OSINT` `Nmap` `Burp Suite` `Shodan` `LGPD` `NIST CSF` |
 
 </details>
 
@@ -287,4 +318,4 @@
 
 ---
 
-Mariana, MG — Brazil · Open to high-impact AI/Cloud/Cybersecurity collaborations
+Mariana, MG — Brazil · Open to high-impact AI/Cloud/Cybersecurity/Security collaborations
