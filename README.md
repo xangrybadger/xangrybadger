@@ -10,6 +10,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaac%20Nathan-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/isaac-nathan-da-silva-barbosa-815b212ab/)
 [![Email](https://img.shields.io/badge/Email-isaacnathandasilva-D4A017?style=flat-square&logo=gmail)](mailto:isaacnathandasilva@gmail.com)
 [![Security](https://img.shields.io/badge/Security-Disclosures-DA3633?style=flat-square)](https://github.com/xAngryBadger/security-disclosures)
+[![CERT.br](https://img.shields.io/badge/CERT.br-Verified-00A859?style=flat-square)](https://cert.br)
+[![CTIR Gov](https://img.shields.io/badge/CTIR%20Gov-5%20Fixes-1E3A8A?style=flat-square)](https://www.gov.br/ctir)
+[![Phishing Takedown](https://img.shields.io/badge/Phishing-Takedown-DA3633?style=flat-square)](https://github.com/xAngryBadger/security-disclosures)
 
 </td>
 <td width="30%" align="right" valign="top">
@@ -184,72 +187,26 @@
 
 ---
 
-### Segurança & Divulgação Responsável / Security & Responsible Disclosure
+### 🛡️ Security Research & Responsible Disclosure
 
-#### 🛡️ Segurança & Divulgação Responsável
+**20+ vulnerabilities** in Brazilian government/sector infrastructure — **5 confirmed fixes** via CERT.br/CTIR Gov (Mar–Jun 2026). Three disclosure waves: zero retention, multi-channel notification (CERT.br + CTIR Gov + direct), post-fix verification.
 
-| | Projeto | A tese / The Thesis | Stack |
+| | Project | The Thesis | Stack |
 |---|---|---|---|
-| 🛡️ | [**Security Disclosures**](https://github.com/xAngryBadger/security-disclosures) | 20+ vulnerabilidades em infraestrutura governamental brasileira — 5 correções confirmadas via CERT.br/CTIR Gov. Análise sistêmica de plataforma (Base44). Divulgação responsável com zero retenção, notificação multi-canal e verificação pós-fix. | `OSINT` `Nmap` `Burp Suite` `Shodan` `LGPD` `NIST CSF` |
+| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Took down active phishing infra (procorereviews.com → sustained HTTP 521) via controlled 10k submission flood. Rotated infra (kochcnfvontainer.vu) mapped, analyzed, reported to CERT.br/Cloudflare. Real HTML extraction via browser bypassing anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
+| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversed 3 JS files obfuscated with custom Base91 (3 unique alphabets). Extracted anti-bot config (PageConfig: 32 flags), session tokens, legitimate OneDrive redirect. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
 
 <details>
 <summary><b>🇺🇸 English version</b></summary>
 
-#### 🛡️ Security & Responsible Disclosure
-
 | | Project | The Thesis | Stack |
 |---|---|---|---|
-| 🛡️ | [**Security Disclosures**](https://github.com/xAngryBadger/security-disclosures) | 20+ vulnerabilities in Brazilian government infrastructure — 5 confirmed fixes via CERT.br/CTIR Gov. Platform-level systemic analysis (Base44). Responsible disclosure with zero retention, multi-channel notification, and post-fix verification. | `OSINT` `Nmap` `Burp Suite` `Shodan` `LGPD` `NIST CSF` |
+| 🎯 | **Phishing Takedown: Microsoft/OneDrive** | Took down active phishing infrastructure (procorereviews.com → sustained HTTP 521) via controlled flood of 10k submissions. Rotated infrastructure (kochcnfvontainer.vu) mapped, analyzed, reported to CERT.br/Cloudflare. Real HTML extraction via browser bypassing anti-bot (Cloudflare Turnstile + fingerprinting). | `OSINT` `Burp Suite` `Shodan` `Google Dorking` `Base91 Decoder` `CERT.br` `Cloudflare` |
+| 🔬 | **JS Deobfuscation & Threat Intel Pipeline** | Reversed 3 JS files obfuscated with custom Base91 (3 unique alphabets). Extracted anti-bot config (PageConfig: 32 flags), session tokens, legitimate OneDrive redirect. Pipeline: Browser → JS download → Custom Base91 decoder → IOC extraction → CERT.br report. | `Python` `Base91` `Node.js` `VM Context` `IOC Extraction` `CERT.br` |
 
 </details>
 
----
-
-## 🔐 Cybersecurity & Responsible Disclosure
-
-| | Projeto | Descrição | Status |
-|---|---|---|---|
-| 🛡️ | [**Security Disclosures**](https://github.com/xAngryBadger/security-disclosures) | Responsible vulnerability disclosure reports — 20+ findings in Brazilian government infrastructure, 5 confirmed fixes verified by CERT.br/CTIR Gov | `Active` |
-
-### Verification (16/06/2026)
-
-| Finding | Organization | Type | Status | Verified |
-|---------|-------------|------|--------|----------|
-| FNAS/MDS SIAFI financial data | Ministério do Desenvolvimento Social | Directory Listing (CWE-548) | 🟢 **Fixed** — WAF blocking | ✅ 16/06 |
-| Ibiraçu/ES municipal portal | Prefeitura de Ibiraçu | DOM-XSS + Directory Listing | 🟢 **Fixed** — Ouvidoria confirmed | ✅ 16/06 |
-| CRMV-RS payroll/ethics docs | Conselho Regional de Medicina Veterinária RS | Directory Listing | 🟢 **Fixed** — 403 Forbidden | ✅ 16/06 |
-| CAU/SC payroll/curricula | Conselho de Arquitetura SC | Directory Listing + vulnerable plugin | 🟢 **Fixed** — 403 Forbidden | ✅ 16/06 |
-| metajobs.base44.app candidate PII | Base44 platform | Missing Auth (CWE-306) | 🟢 **Fixed** — 403 Forbidden | ✅ 16/06 |
-| gestorcontratospro.base44.app | Base44 platform | Missing Auth | 🟢 **Fixed** — Auth required | ✅ 16/06 |
-| Mogi Guaçu/SP backup dump | Prefeitura de Mogi Guaçu | Backup exposure (SQL + VPN tar) | 🔴 **Still open** | ✅ 16/06 |
-| CAU/SE payroll with CPFs | Conselho de Arquitetura SE | Directory Listing | 🔴 **Still open** | ✅ 16/06 |
-| Ministério da Economia Painel | Ministério da Economia | Directory Listing + Apache EOL | 🔴 **Still open** | ✅ 16/06 |
-| VALIPREV benefit processes | Instituto de Previdência Valinhos | Directory Listing | 🔴 **Still open** | ✅ 16/06 |
-| educbarueri FUNDEB docs | Barueri/SP | Directory Listing | 🔴 **Still open** | ✅ 16/06 |
-| SISPREV-Brodowski payroll | Brodowski/SP | Directory Listing (CPF exposure) | 🔴 **Still open** | ✅ 16/06 |
-| Aroeira user data | Prorural PE | Directory Listing | 🔴 **Still open** | ✅ 16/06 |
-| Campo Bom SAMU schedules | Campo Bom/RS | Directory Listing | 🔴 **Still open** | ✅ 16/06 |
-| mentoriadom admin panel | Base44 platform | SPA admin sitemap visible | 🟡 Uncertain | ✅ 16/06 |
-| SAF/SUS unauth-file-upload | Ministério da Saúde | Directory Listing | 🟡 Uncertain (timeout) | ✅ 16/06 |
-
-### Methodology
-
-| Phase | Description | Compliance |
-|-------|-------------|------------|
-| **Passive Recon** | Google Dorking, Shodan, certificate transparency, passive DNS. No active payloads. | NIST CSF `ID.AM-5` |
-| **Exposure Verification** | Confirm unauthenticated access as any citizen would find it. | NIST CSF `PR.AC-1` |
-| **Documentation** | Screenshots, HTTP headers, timestamps. Minimal PoC only. | LGPD Art. 46 §1º |
-| **Secure Deletion** | `shred -u` on all PoC files after documentation. Zero retention. | LGPD Art. 6 III |
-| **Multi-channel Notification** | CERT.br + CTIR Gov + direct contact simultaneously. | LGPD Art. 48, NIST `RS.AN-3` |
-| **Follow-up** | Post-fix verification, re-contact if needed, documented closure. | NIST CSF `RC.CO-1` |
-
-### Stack (Security)
-
-| Category | Tools/Frameworks |
-|----------|------------------|
-| **Offensive Recon** | Google Dorking · OSINT · Nmap · Wireshark · Burp Suite · SNMP enumeration · WordPress audit |
-| **Defensive** | LGPD compliance · WAF verification · TLP protocol · Responsible disclosure (CERT.br/CTIR) · CVE analysis |
-| **Frameworks** | NIST CSF · OWASP Top 10 · CIS Controls (awareness) |
+**Methodology:** Passive Recon (Google Dorking, Shodan, CT logs, passive DNS) → Exposure Verification (confirm unauthenticated access) → Documentation (screenshots, headers, timestamps) → Secure Deletion (`shred -u`, zero retention) → Multi-channel Notification (CERT.br + CTIR Gov + direct, simultaneous) → Follow-up (post-fix verification, documented closure). Compliance: NIST CSF, LGPD Art. 46/48, OWASP Top 10.
 
 ---
 
