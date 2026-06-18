@@ -212,6 +212,13 @@
 
 ### Experiência Profissional
 
+> **Security Researcher (Volunteer / Responsible Disclosure)** · `Mar 2026 — Presente` · _Voluntário_
+>
+> - 20+ vulnerabilidades em infraestrutura governamental/setorial brasileira — 5 correções confirmadas via CERT.br/CTIR Gov (Mar–Jun 2026). Três ondas de divulgação responsável: zero retenção, notificação multi-canal, verificação pós-fix.
+> - Takedown de phishing Microsoft/OneDrive: derrubei origin server (procorereviews.com) via flood
+> - English: 20+ vulnerabilities in Brazilian government/sectoral infrastructure — 5 confirmed remediations via CERT.br/CTIR Gov (Mar–Jun 2026). Three waves of responsible disclosure: zero retention, multi-channel notification, post-fix verification.
+> - Phishing/Microsoft OneDrive takedown: took down origin server (procorereviews.com) via abuse report
+
 > **Paware Softwares** · Full-Stack Developer · `Out 2025 — Mai 2026`
 >
 > Migrei centenas de GB de datasets legados do Google Drive para **Azure Cosmos DB** (Meritage Homes, EUA) — pipeline com extração via cookies, compressão, Docker e validação de schema. Resolvi bug crítico de MIME types cross-platform (Android vs iOS). Arquitetei pipeline orquestrado por LLM de geração de imagens para o **HelloSocial** — GPT-4.1, Flux + DALL-E 3.
